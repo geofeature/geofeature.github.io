@@ -6,13 +6,13 @@
      "members": [
     {
      "type": "group",
-     "name": "BGS 1:50 000 Geology",
+     "name": "BGS 1:50,000 Geology",
      "description": "Generalised digital geological map data based on the BGS New Series 1:50 000 and 1:63 360-scale (one-inch to one-mile) maps with updated nomenclature, including a few 1:100 000-scale maps of Orkney and the Hebrides.",
      "members": [
      {
       "type": "wms",
       "isEsri": true,
-      "name": "BGS 1:50k Bedock Geology",
+      "name": "BGS 1:50,000 Bedock Geology",
       "attribution": "Contains British Geological Survey materials © UKRI 2023",
       "description": "GBR BGS 1:50000 scale bedrock geology layer",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
@@ -38,15 +38,79 @@
       "allowFeaturePicking": true,
       "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
       "featureInfoTemplate": {
-          "name": "{{LEX_RCS_D}}.",
+          "name": "1:50,000 Bedrock Geology: {{LEX_RCS_D}}.",
 	  "partials": {"Null": ""},
-	  "template": "Description: {{TYPE_D}}, {{BROAD_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}<br><br>Environment: {{ENVIRONMENT_D}}<br><br>Further information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023"
+	  "template": "{{LEX_RCS_D}}<br><br>Description: {{TYPE_D}}, {{BROAD_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}<br><br>Environment: {{ENVIRONMENT_D}}<br><br>Further information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023"
        }
     },
+    {  
+         "type": "geojson",
+         "name": "Ham Hill Limestone Member",
+         "url": "data/HamHillLimestone.geojson",
+	 "description": "Ham Hill Limestone Member",
+	 "attribution": "Contains British Geological Survey materials © UKRI 2023",
+	 "dataCustodian": "Contains British Geological Survey materials © UKRI 2023",  
+         "isOpenInWorkbench": false,
+	 "zoomOnAddToWorkbench": false,
+	 "opacity": 0.2,
+         "disableOpacityControl": false,    
+ 	 "columns":[
+		    {
+		    "name": "LEX_D",
+		    "title": "Geology",
+		    "type": "hidden"
+		    },{
+		    "name": "LEX_WEB",
+		    "type": "hidden"
+	            },{
+		    "name": "MAX_EPOCH",
+		    "type": "hidden"
+	            },{
+		    "name": "BGSREF",
+		    "type": "hidden"
+	            },{
+		    "name": "VERSION",
+		    "type": "hidden"
+	            },{
+		    "name": "NOM_SCALE",
+		    "type": "hidden"
+		    },{
+		    "name": "NOM_BGS_YR",
+		    "type": "hidden"
+	        }
+     	 ],	 
+         "styles":[
+             {
+                "id":"LEX_D",
+                "color":{
+                    "mapType":"enum",
+                    "enumColors":[{
+                        "value":"HAM HILL LIMESTONE MEMBER",
+                        "color":"rgba(91,2,16,1)"
+                        }],
+                 },
+             "hidden":false
+         }],
+         "activeStyle":"LEX_D",
+         "featureInfoTemplate": {
+            "name": "1:50,000 Bedrock Geology: {{LEX_RCS_D}}",
+            "template": "{{LEX_RCS_D}}<br><br>{{RCS_ORIGIN}} {{BGSTYPE}}, {{RCS_D}}<br><br><a href='{{LEX_WEB}}'>{{LEX_D}}</a><br>{{FM_EQ_D}}<br>{{GP_EQ_D}}<br><br>Time: {{MAX_TIME_Y}} to {{MIN_TIME_Y}} years ago<br>Age: {{MAX_AGE}}<br>Period: {{MAX_PERIOD}}<br>Era: {{MAX_ERA}}<br>Eon: {{MAX_EON}}",
+            "formats":{
+	     "MAX_TIME_Y": {
+	        "type": "number",
+		"useGrouping": true       
+	      },
+	      "MIN_TIME_Y": {
+		 "type": "number",
+		 "useGrouping": true       
+	       }	 		       
+	    }	 
+	 }
+       },
     {
       "type": "wms",
       "isEsri": true,
-      "name": "BGS 1:50k Surface Geology",
+      "name": "BGS 1:50,000 Surface Geology",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Superficial.deposits",
       "styles": "default",
@@ -70,7 +134,7 @@
       "allowFeaturePicking": true,
       "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},    
       "featureInfoTemplate": {
-		  "name": "{{LEX_RCS_D}}",
+		  "name": "1:50,000 Surface Geology: {{LEX_RCS_D}}",
 		  "template": "{{LEX_RCS_D}}<br>Code: <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>{{LEX}}</a><br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}<br><br>Description: {{TYPE_D}}, {{BROAD_D}}<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}<br><br>Environment: {{ENVIRONMENT_D}}",
           "partials": {
               "Null": " "
@@ -137,9 +201,9 @@
      "members": [
     {
       "type": "wms",
-      "isThredds": true,
       "name": "BGS 1:625k Bedrock Lithostratigraphy",
-      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "url": "https://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      //"url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BLS",
       "styles": "default",
       "minScaleDenominator": 100000,
@@ -147,8 +211,8 @@
       "allowFeaturePicking": true,
       "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
       "featureInfoTemplate": {
-          "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
-          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br>{{#MAX_AGE}}<br>Age: {{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>Epoch: {{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>Period: {{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>Era: {{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>Eon: {{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>Previous name(s): {{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
+          "name": "{{#LEX}}1:625,000 Bedrock: {{LEX_D}}{{/LEX}}",
+          "template": "{{#LEX}}{{LEX_D}}<br><br>{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br>{{#MAX_AGE}}<br>Age: {{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>Epoch: {{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>Period: {{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>Era: {{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>Eon: {{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>Previous name(s): {{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
 	  "formats":{
 	     "MAX_TIME_Y": {
 	        "type": "number",
@@ -160,8 +224,8 @@
 	       }	 		       
 	    }
        },
-      "hideLegendInWorkbench": true,
-      "isOpenInWorkbench": true,
+      "hideLegendInWorkbench": false,
+      "isOpenInWorkbench": false,
       "opacity": 0.5,
       "legends": [
       {
@@ -173,7 +237,6 @@
     },
     {
       "type": "wms",
-      "isThredds": true,
       "name": "BGS 1:625k Surface Lithostratigraphy",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_SLS",
@@ -196,8 +259,8 @@
 	       }	 		       
 	    }
        },
-      "hideLegendInWorkbench": true,
-      "isOpenInWorkbench": true,
+      "hideLegendInWorkbench": false,
+      "isOpenInWorkbench": false,
       "opacity": 0.5,
       "legends": [
       {
@@ -209,7 +272,6 @@
     },
    {
       "type": "wms",
-      "isThredds": true,
       "name": "BGS 1:625k Bedrock Lithology",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BLT",
@@ -232,8 +294,8 @@
 	       }	 		       
 	    }
        },
-      "hideLegendInWorkbench": true,
-      "isOpenInWorkbench": true,
+      "hideLegendInWorkbench": false,
+      "isOpenInWorkbench": false,
       "opacity": 0.5,
       "legends": [
       {
@@ -245,7 +307,6 @@
     },
     {
       "type": "wms",
-      "isThredds": true,
       "name": "BGS 1:625k Surface Lithology",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_SLT",
@@ -268,8 +329,8 @@
 	       }	 		       
 	    }
        },
-      "hideLegendInWorkbench": true,
-      "isOpenInWorkbench": true,
+      "hideLegendInWorkbench": false,
+      "isOpenInWorkbench": false,
       "opacity": 0.5,
       "legends": [
       {
@@ -281,7 +342,6 @@
     },
     {
       "type": "wms",
-      "isThredds": true,  
       "name": "BGS 1:625k Bedrock Age",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BA",
@@ -304,8 +364,8 @@
 	       }	 		       
 	    }
        },
-      "hideLegendInWorkbench": true,
-      "isOpenInWorkbench": true,
+      "hideLegendInWorkbench": false,
+      "isOpenInWorkbench": false,
       "opacity": 0.5,
       "legends": [
       {
@@ -356,7 +416,7 @@
 	       }
            },
 	   "description":"The Dykes data defines small, narrow areas (shown as polygons) of a specific type of bedrock geology, igneous rocks which have been intruded into the landscape. The dykes are presented as an optional, separate theme in order to provide additional clarity of the Bedrock theme. The bedrock and dykes datasets are designed to be used together."
-	 }     
+	 }
       ]
     },
     {

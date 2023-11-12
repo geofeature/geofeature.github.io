@@ -6,73 +6,188 @@
      "members": [
          {     
 	     "type": "group",
-             "name": "Local Geological Sites",
-             "members": [
-                 {
-	             "type": "csv",
-	             "name": "Somerset LGS",
-	             "url": "data/SomersetLGS2023.csv",
-	             "activeStyle": "Local Authority",
-	             "isOpenInWorkbench": false
-                 }
-	     ]
-	 },
-         {     
-	     "type": "group",
-             "name": "Geo Conservation Review Sites",
+             "name": "Geo Conservation Review (GCR) Sites",
              "members": [
          {
 	     "type": "csv",
 	     "name": "Devon GCR",
 	     "url": "data/GCR-Devon.csv",
              "isOpenInWorkbench": false,
-             "activeStyle": "admin_area",
-             "defaultStyle": {
-                 "color": {
-		     "colorColumn": "admin_area", 
-                     "binColors": [
-                         "rgba(0,0,200,1.00)",
-                         "rgba(0,0,200,1.00)"			   
-                     ],
-                     "numberOfBins": 2
+	     "attribution": "Joint Nature Conservation Committee (JNCC)",
+	     "zoomOnAddToWorkbench": true,
+	     "defaultColumn": {
+		 "name": "GCR_STATUS",
+	     },
+	     "styles": [
+	         {
+		     "id": "admin_area",
+	             "hidden": true
+		 },
+	         {
+		     "id": "gcr_number",
+	             "hidden": true
+		 },
+	         {
+		     "id": "SYSTEM",
+	             "hidden": true
+		 },
+	         {
+		     "id": "ESCC",
+	             "hidden": true
 		 }
+	     ],
+	     "activeStyle": "GCR_STATUS",
+             "defaultStyle": {
+		 "latitudeColumn": "LATITUDE",
+		 "longitudeColumn": "LONGITUDE",
+	         "time": {
+                    "timeColumn": null
+                 },
+                 "color": {
+		     "colorColumn": "GCR_STATUS",
+		     "enumColors": [
+			 {
+		             "value": "Proposed",
+			     "color": "rgba(0,200,0,1.0)"
+			 },
+			 {
+		             "value": "Notified",
+			     "color": "rgba(0,0,200,1.0)"
+			 },
+			 {
+		             "value": "Confirmed",
+			     "color": "rgba(200,0,0,1.00)"
+			 },
+			 {
+		             "value": "Deleted",
+			     "color": "rgba(0,0,0,1.00)"
+			 }    
+		     ]
+                 }    
+             },
+	     "featureInfoTemplate": {
+                 "name": "Devon GCR sites - {{GCR_NAME}}",
+	         "template": "{{GCR_NAME}}<br><br>{{GCR_STATEMENT}}{{#BLOCK_NAME}}<br><br>Block: {{BLOCK_NAME}}{{/BLOCK_NAME}}{{#SYSTEM}}<br>System: {{SYSTEM}}{{/SYSTEM}}{{#ESCC}}<br>Category: {{ESCC}{{/ESCC}}<br><br>Status: {{GCR_STATUS}}<br>Designation: {{GCR_DATE}}<br>Review: {{REVIEW_DATE}}<br><br>SSSI: {{SSSI_NAME}}"
              }
          },
-         {
+         {        
 	      "type": "csv",
 	      "name": "Dorset GCR",
 	      "url": "data/GCR-Dorset.csv",
               "isOpenInWorkbench": false,
-              "activeStyle": "admin_area",
-	      "description": "",
-	      "attribution": "",
-	      "defaultStyle": {
-                 "color": {
-		   "colorColumn": "admin_area", 
-                   "binColors": [
-                     "rgba(200,0,0,1.00)",
-	             "rgba(0,200,0,1.00)",
-	             "rgba(0,0,200,1.00)"
-                    ],
-                   "numberOfBins": 3
+ 	      "description": "",
+	      "attribution": "Joint Nature Conservation Committee (JNCC)",
+	      "zoomOnAddToWorkbench": true,
+	      "activeStyle": "GCR_STATUS",
+	      "styles": [
+	         {
+		     "id": "admin_area",
+	             "hidden": true
+		 },
+	         {
+		     "id": "gcr_number",
+	             "hidden": true
+		 },
+	         {
+		     "id": "SYSTEM",
+	             "hidden": true
+		 },
+	         {
+		     "id": "ESCC",
+	             "hidden": true
 		 }
-            }
+	      ],
+	      "defaultStyle": {
+		 "latitudeColumn": "LATITUDE",
+		 "longitudeColumn": "LONGITUDE",
+		 "time": {
+                    "timeColumn": null
+                 },
+                 "color": {
+		     "colorColumn": "GCR_STATUS",
+		     "enumColors": [
+			 {
+		             "value": "Proposed",
+			     "color": "rgba(0,200,0,1.0)"
+			 },
+			 {
+		             "value": "Notified",
+			     "color": "rgba(0,0,200,1.0)"
+			 },
+			 {
+		             "value": "Confirmed",
+			     "color": "rgba(200,0,0,1.00)"
+			 },
+			 {
+		             "value": "Deleted",
+			     "color": "rgba(0,0,0,1.00)"
+			 }    
+		     ]
+		 }
+            },
+	     "featureInfoTemplate": {
+                 "name": "Dorset GCR sites - {{GCR_NAME}}",
+	         "template": "{{GCR_NAME}}<br><br>{{GCR_STATEMENT}}{{#BLOCK_NAME}}<br><br>Block: {{BLOCK_NAME}}{{/BLOCK_NAME}}{{#SYSTEM}}<br>System: {{SYSTEM}}{{/SYSTEM}}{{#ESCC}}<br>Category: {{ESCC}{{/ESCC}}<br><br>Status: {{GCR_STATUS}}<br>Designation: {{GCR_DATE}}<br>Review: {{REVIEW_DATE}}<br><br>SSSI: {{SSSI_NAME}}"
+             }
        },
        {
 	       "type": "csv",
 	       "name": "Somerset GCR",
 	       "url": "data/GCR-Somerset.csv",
                "isOpenInWorkbench": false,
-	       "activeStyle": "admin_area",
+	       "attribution": "Joint Nature Conservation Committee (JNCC)",
+	       "zoomOnAddToWorkbench": true,
+	       "activeStyle": "GCR_STATUS",
+	       "styles": [
+	         {
+		     "id": "admin_area",
+	             "hidden": true
+		 },
+	         {
+		     "id": "gcr_number",
+	             "hidden": true
+		 },
+	         {
+		     "id": "SYSTEM",
+	             "hidden": true
+		 },
+	         {
+		     "id": "ESCC",
+	             "hidden": true
+		 }
+	       ],
 	       "defaultStyle": {
+		    "latitudeColumn": "LATITUDE",
+		    "longitudeColumn": "LONGITUDE",
+	            "time": {
+                    "timeColumn": null
+                 },
                  "color": {
-		     "colorColumn": "admin_area", 
-                     "binColors": [
-                         "rgba(0,200,0,1.00)"
-                     ],
-                     "numberOfBins": 1
+		     "colorColumn": "GCR_STATUS",
+		     "enumColors": [
+			 {
+		             "value": "Proposed",
+			     "color": "rgba(0,200,0,1.0)"
+			 },
+			 {
+		             "value": "Notified",
+			     "color": "rgba(0,0,200,1.0)"
+			 },
+			 {
+		             "value": "Confirmed",
+			     "color": "rgba(200,0,0,1.00)"
+			 },
+			 {
+		             "value": "Deleted",
+			     "color": "rgba(0,0,0,1.00)"
+			 }    
+		     ]
 		  }
-              }
+              },
+	     "featureInfoTemplate": {
+                 "name": "Somerset GCR sites - {{GCR_NAME}}",
+	         "template": "{{GCR_NAME}}<br><br>{{GCR_STATEMENT}}{{#BLOCK_NAME}}<br><br>Block: {{BLOCK_NAME}}{{/BLOCK_NAME}}{{#SYSTEM}}<br>System: {{SYSTEM}}{{/SYSTEM}}{{#ESCC}}<br>Category: {{ESCC}{{/ESCC}}<br><br>Status: {{GCR_STATUS}}<br>Designation: {{GCR_DATE}}<br>Review: {{REVIEW_DATE}}<br><br>SSSI: {{SSSI_NAME}}"
+             }
           }    
        ]
        },

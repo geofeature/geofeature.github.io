@@ -1,0 +1,294 @@
+{
+  "catalog": [
+    {
+     "type": "group",
+     "name": "Environment",
+     "members": [
+       {
+         "type": "esri-featureServer",
+         "name": "National Parks",
+         "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/National_Parks_England/FeatureServer/0",
+         "useStyleInformationFromService": false,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": false,
+	 "columns": [
+		    {
+		    "name": "OBJECTID",
+		    "type": "hidden"  
+		    },{
+		    "name": "ESRI",
+		    "type": "hidden"
+		    },{
+		    "name": "CODE",
+		    "type": "hidden"
+	            },{
+		    "name": "MEASURE",
+		    "type": "hidden"
+	            },{
+		    "name": "Shape__Area",
+		    "type": "hidden",
+		    "units": "square km"
+	            },{
+		    "name": "Shape__Length",
+		    "type": "hidden"
+	        }
+	 ],
+	 "isOpenInWorkbench":true,
+         "opacity":0.5,
+	 "styles":[{
+             "id":"NAME",
+	     "color":{ 
+                    "mapType": "enum",
+                    "enumColors": [
+			{
+                        "value": "DARTMOOR",
+                        "color": "rgba(45,34,163,1)"
+                        },
+			{
+                        "value": "EXMOOR",
+                        "color": "rgba(153,134,57,1)"
+                        },
+			{
+                        "value": "LAKE DISTRICT",
+                        "color": "rgba(181,51,70,1)"
+                        },
+			{
+                        "value": "NEW FOREST",
+                        "color": "rgba(74,199,52,1)"
+                        },
+			{
+                        "value": "NORTH YORK MOORS",
+                        "color": "rgba(179,86,39,1)"
+                        },
+			{
+                        "value": "NORTHUMBERLAND",
+                        "color": "rgba(201,44,175,1)"
+                        },
+			{
+                        "value": "PEAK DISTRICT",
+                        "color": "rgba(52,158,107,1)"
+                        },
+			{
+                        "value": "SOUTH DOWNS",
+                        "color": "rgba(41,99,186,1)"
+                        },
+			{
+                        "value": "THE BROADS",
+                        "color": "rgba(168,201,56,1)"
+                        },
+			{
+                        "value": "YORKSHIRE DALES",
+                        "color": "rgba(43,141,173,1)"
+                        }			    
+		    ]
+               },
+               "hidden":false
+          }],
+         "activeStyle":"NAME",
+	 "showDisableStyleOption":false,
+         "featureInfoTemplate": {
+		         "name": "{{NAME}} NATIONAL PARK",
+		         "template": "{{NAME}}<br>Area: {{MEASURE}} km<sup>2</sup><br>Status: {{STATUS}}<br>More: {{HOTLINK}}"
+          }
+       },
+       {
+         "type": "esri-featureServer",
+         "name": "World Heritage Sites",
+         "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE/FeatureServer/7",
+         "description": "World Heritage Sites are part of the World Heritage Convention, established in 1972 by UNESCO (United Nations Educational, Scientific and Cultural Organisation). They are landscapes, cities, monuments or buildings of exceptional natural or cultural value. The World Heritage List includes the Great Wall of China, the Pyramids, the Great Barrier Reef and the City of Venice. Sites in England include Stonehenge and Avebury, Canterbury Cathedral, the Tower of London, Hadrian’s Wall and the whole of the City of Bath. Please note: this dataset represents Historic England’s interpretation of the UNESCO World Heritage Site boundaries for sites wholly in or crossing into England.",
+         "useStyleInformationFromService": false,
+	 "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+       	 "isOpenInWorkbench":true,
+	 "styles":[
+		 {
+			 "id":"Name",
+			 "color":{
+				 "mapType":"enum",
+				 "enumColors":[],
+				 "colorPalette":"HighContrast"
+			 },"hidden":false
+		 }
+	 ],
+	"activeStyle":"Name",
+	"showDisableStyleOption":false
+       },
+       {
+         "type": "esri-featureServer",
+         "name": "Areas of Outstanding Natural Beauty - England",
+         "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/Areas_of_Outstanding_Natural_Beauty_England/FeatureServer/0",
+         "description":"AONBs are designated areas where protection is afforded to protect and manage the areas for visitors and local residents. Under the Countryside and Rights of Way Act 2000, Natural England has the power to designate areas of outstanding natural beauty (AONBs) in England that are outside national parks and that are considered to have such natural beauty it is desirable they are conserved and enhanced; issue a variation order to change an existing AONB boundary. It also holds a duty to give advice on developments taking place in an AONB; take into account the conservation and enhancement of AONBs in its work",
+         "useStyleInformationFromService": false,
+	 "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": false,
+  	 "columns": [
+		    {
+		    "name": "OBJECTID",
+		    "type": "hidden"    
+		    },{
+		    "name": "CODE",
+		    "type": "hidden"
+	            },{
+		    "name": "STAT_AREA",
+		    "type": "hidden"
+	            },{
+		    "name": "Shape__Area",
+		    "type": "hidden",
+		    "units": "square km"
+	            },{
+		    "name": "Shape__Length",
+		    "type": "hidden"
+	        }
+	 ],
+        "isOpenInWorkbench":true,
+        "styles":[
+        {
+            "id":"NAME",
+            "color":{
+                "mapType":"enum",
+                "enumColors":[
+                    {"value":"East Devon","color":"rgba(211,41,41,1)"},
+                    {"value":"Isles Of Scilly","color":"#FFB300"},
+                    {"value":"Mendip Hills","color":"#803E75"},{"value":"Cotswolds","color":"#FF6800"},
+                    {"value":"High Weald","color":"#A6BDD7"},
+                    {"value":"Chichester Harbour","color":"#C10020"},
+                    {"value":"Northumberland Coast","color":"#CEA262"},
+                    {"value":"Dedham Vale","color":"#817066"},
+                    {"value":"Cannock Chase","color":"#007D34"},
+                    {"value":"Lincolnshire Wolds","color":"#F6768E"},
+                    {"value":"Blackdown Hills","color":"#00538A"},
+                    {"value":"Isle Of Wight","color":"#FF7A5C"},
+                    {"value":"Solway Coast","color":"#53377A"},
+                    {"value":"Kent Downs","color":"#FF8E00"},{"value":"Nidderdale","color":"#B32851"},
+                    {"value":"North Devon","color":"#F4C800"},
+                    {"value":"North Pennines","color":"#7F180D"},
+                    {"value":"South Devon","color":"#93AA00"},
+                    {"value":"Quantock Hills","color":"#593315"},
+                    {"value":"Howardian Hills","color":"#F13A13"},
+                    {"value":"Cranborne Chase & West Wiltshire Downs","color":"#232C16"},{"value":"Malvern Hills","color":"rgba(231,19,19,1)"},
+                    {"value":"Norfolk Coast","color":"rgba(171,174,64,1)"},
+                    {"value":"Wye Valley","color":"rgba(13,235,102,1)"},
+                    {"value":"Arnside & Silverdale","color":"rgba(127,85,226,1)"},
+                    {"value":"Surrey Hills","color":"rgba(11,211,46,1)"},
+                    {"value":"Tamar Valley","color":"rgba(233,10,233,1)"},{"value":"Dorset","color":"rgba(25,130,235,1)"},
+                    {"value":"Shropshire Hills","color":"rgba(242,134,27,1)"},{"value":"Cornwall","color":"rgba(123,36,209,1)"},
+                    {"value":"Forest Of Bowland","color":"rgba(32,138,32,1)"},
+                    {"value":"Suffolk Coast & Heaths","color":"rgba(223,142,61,1)"},{"value":"Chilterns","color":"rgba(231,126,20,1)"},
+                    {"value":"North Wessex Downs","color":"rgba(131,227,34,1)"}
+            ],
+    "colorPalette":"HighContrast"
+},
+"hidden":false
+}
+],
+"activeStyle":"NAME",
+"showDisableStyleOption":false,
+"featureInfoTemplate": {
+		         "name": "{{NAME}} AONB",
+		         "template": "{{NAME}}<br>Area: {{STAT_AREA}} km<sup>2</sup><br>Designation: {{DESIG)DATE}}<br>More: {{HOTLINK}}"
+          }
+       },
+       {
+         "type": "esri-featureServer",
+         "name": "Heritage Coast",
+         "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/Heritage_Coasts_England/FeatureServer/0",
+         "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+         "isOpenInWorkbench": false
+       },
+       {
+         "type": "geojson",
+         "name": "South West Coast Path",
+         "description":"Data showing the route of the South West Coast Path through Somerset, Devon, Cornwall and Dorset.",
+         "url": "data/swcprouteslippy.geojson",
+         "style": {
+            "stroke-width": 10,
+            "stroke": "black"
+          },
+         "opacity": 1.0
+       },
+       {
+         "type": "esri-featureServer",
+         "name": "Coast Path",
+         "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/England_Coast_Path_Route/FeatureServer/0",
+         "opacity": 1.0
+       },
+       {
+         "type": "esri-featureServer",
+         "name": "Coast Path Coastal Margins",
+         "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/England_Coast_Path_Coastal_Margin/FeatureServer/0",
+         "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+         "isOpenInWorkbench": false
+       },
+       {
+         "type": "esri-featureServer",
+         "name": "National Nature Reserves",
+         "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/National_Nature_Reserves_England/FeatureServer/0",
+         "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+         "isOpenInWorkbench": false
+       },
+       {
+         "type": "esri-featureServer",
+         "name": "Sites of Special Scientific Interest",
+         "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/SSSI_England/FeatureServer/0",
+         "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+         "isOpenInWorkbench": false
+       },
+       {
+         "type": "esri-featureServer",
+         "name": "Country Parks",
+         "url": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Country_Parks_England/FeatureServer/0",
+         "description":"Country Parks are public green spaces often at the edge of urban areas which provide places to enjoy the outdoors and experience nature in an informal semi-rural park setting.",
+         "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+         "isOpenInWorkbench": false,
+	 "info": [
+         {
+	 "name": "Abstract",
+	 "content": "More than 400 Country Parks exist. They are public green spaces often at the edge of urban areas which provide places to enjoy the outdoors and experience nature in an informal semi-rural park setting. Country Parks normally have some facilities such as a car park, toilets, perhaps a cafe or kiosk, paths and trails, and visitor information."
+	 }
+	 ]		 
+       },
+       {
+         "type": "esri-featureServer",
+         "name": "National Trust - Always Open",
+         "url": "https://services-eu1.arcgis.com/NPIbx47lsIiu2pqz/arcgis/rest/services/National_Trust_Open_Data_Land_Always_Open/FeatureServer/0",
+         "description":"Areas of National Trust land, captured at ~ 1:50,000 to which the public has access on foot only – either by right (in the case of designated ‘Access Land’ under the Countryside (Rights of Way) Act 2000 (CRoW)) or by permission from National Trust..",
+         "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+         "isOpenInWorkbench": false
+       },
+       {
+         "type": "esri-featureServer",
+         "name": "National Trust - Limited Access",
+         "url": "https://services-eu1.arcgis.com/NPIbx47lsIiu2pqz/arcgis/rest/services/National_Trust_Open_Data_Land_Limited_Access/FeatureServer/0",
+         "description":"National Trust Limited Access Land is land owned by National Trust where the public can access at certain times, or after paying an admission charge, or where access is limited to footpaths. Observe local signage for access restrictions.",
+         "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+         "isOpenInWorkbench": false
+       },
+       {
+         "type": "esri-featureServer",
+         "name": "Local Nature Reserves",
+         "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/Local_Nature_Reserves_England/FeatureServer/0",
+         "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+         "isOpenInWorkbench": false
+       }
+      ]
+    }
+  ]
+}

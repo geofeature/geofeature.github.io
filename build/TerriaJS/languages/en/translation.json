@@ -49,7 +49,7 @@
       "content": "## View controls\n\nHere you can change the view of the map. You can change the orientation of your view by using the outer ring, and you can tilt the camera angle using the inner ring. Double click to reset the view."
     },
     "mapNavigationSplitterIcon": {
-      "content": "## Compare\n\nA powerful feature of Terria is the ability to compare datasets using a split screen view. For datasets with a time-series component, such as satellite images, you can compare dates backwards and forwards in time by clicking on the date picker/selector."
+      "content": "## Compare\n\nA powerful feature of GeoFeature is the ability to compare datasets using a split screen view. For datasets with a time-series component, such as satellite images, you can compare dates backwards and forwards in time by clicking on the date picker/selector."
     }
   },
   "measure": {
@@ -264,7 +264,7 @@
     "baseMap": "Base Map",
     "imageOptimisation": "Image Optimisation",
     "nativeResolutionHeader": "Use native device resolution",
-    "mapQuality": "Map Quality:",
+    "mapQuality": "Raster Map Quality:",
     "qualityLabel": "Quality",
     "performanceLabel": "Performance",
     "timeline": {
@@ -300,7 +300,7 @@
   "helpPanel": {
     "btnText": "Help",
     "menuPaneTitle": "We're here to help",
-    "menuPaneBody": "Find useful tips on how to use TerriaJS by either checking the guides below or by contacting the team at [{{supportEmail}}]({{supportEmail}})",
+    "menuPaneBody": "Find useful tips on how to use GeoFeature by either checking the guides below or by contacting [{{supportEmail}}]({{supportEmail}})",
     "promptMessage": "Find the Tour, how-to videos & other help content here",
     "dismissText": "Got it, thanks!",
     "takeTour": "Take the tour",
@@ -596,7 +596,7 @@
     "success": "Copied to clipboard",
     "unsuccessful": "Copy unsuccessful...",
     "shareURL": "Share URL",
-    "shareExplanation": "Anyone with this URL will be able to access this map.",
+    "shareExplanation": "Anyone with this URL will be able to access this map. If more convenient, use with tinyurl.com or another URL shortening service.",
     "copy": "Copy"
   },
   "includeStory": {
@@ -769,9 +769,7 @@
       "devError": "cesium is required.",
       "failedToObtain": "Failed to obtain image tile X: {{x}} Y: {{y}} Level: {{level}}.",
       "notWebMercatorTilingScheme": "This dataset cannot be displayed on the 2D map because it does not support the Web Mercator (EPSG:3857) projection.",
-      "unusalTilingScheme": "This dataset cannot be displayed on the 2D map because it uses an unusual tiling scheme that is not supported.",
-      "terrainServerErrorTitle": "Terrain Server Not Responding",
-      "terrainServerErrorMessage": " The terrain server is not responding at the moment.  You can still use all the features of {{appName}} but there will be no terrain detail in 3D mode.  We're sorry for the inconvenience.  Please try again later and the terrain server should be responding as expected.  If the issue persists, please contact us via email at {{supportEmail}}."
+      "unusalTilingScheme": "This dataset cannot be displayed on the 2D map because it uses an unusual tiling scheme that is not supported."
     },
     "computeRingWindingOrder": {
       "devError": "Expected points of type {x:number, y:number}"
@@ -881,8 +879,7 @@
       "invalidServiceTitle": "Invalid ArcGIS Map Service",
       "invalidServiceMessage": "An error occurred while invoking the ArcGIS Map Service.  The server's response does not appear to be a valid Map Service document.",
       "groupNotAvailableTitle": "Group is not available",
-      "groupNotAvailableMessage": "An error occurred while invoking the ArcGIS Map Service.",
-      "singleFusedMapCacheLayerName": "All layers"
+      "groupNotAvailableMessage": "An error occurred while invoking the ArcGIS Map Service."
     },
     "arcGisMapServerCatalogItem": {
       "name": "Esri ArcGIS MapServer",
@@ -982,9 +979,7 @@
       "mustHaveType": "Each item must have a type.",
       "compositesError": "Composites cannot include composite items.",
       "convertErrorTitle": "Could not upgrade catalog to V8",
-      "convertErrorMessage": "This catalog file is based on an older version of TerriaJS - the software powering this web map. An error has occurred trying to upgrade the catalog data for {{url}}.",
-      "addAll": "Add All",
-      "removeAll": "Remove All"
+      "convertErrorMessage": "This catalog file is based on an older version of TerriaJS - the software powering this web map. An error has occurred trying to upgrade the catalog data for {{url}}."
     },
     "createParameter": {
       "unsupportedErrorTitle": "Unsupported function parameter type",
@@ -1302,10 +1297,10 @@
       "notSupportedErrorMessage": "{{name}} cannot be shown in the 2D view. Switch to 3D and try again"
     },
     "terria": {
-      "loadConfigErrorTitle": "Failed to load Terria Map config",
+      "loadConfigErrorTitle": "Failed to load GeoFeature config",
       "proxyableDomainsDeprecation": "`proxyableDomainsUrl` is no longer supported in v8",
       "initErrorTitle": "Failed to initialize services",
-      "initErrorMessage": "A problem occurred with the Terria server. This may cause some layers or the conversion service to be unavailable.",
+      "initErrorMessage": "A problem occurred with the GeoFeature server. This may cause some layers or the conversion service to be unavailable.",
       "urlLoadErrorTitle": "Problem loading URL",
       "urlLoadErrorMessage": "A problem occurred while initialising Terria with URL parameters.",
       "loadModelErrorMessage": "An error occurred while loading model `{{model}}`.",
@@ -1385,9 +1380,9 @@
       "serviceContact": "Service Contact",
       "getCapabilitiesUrl": "GetCapabilities URL",
       "noLayerFoundTitle": "No layer found",
-      "noLayerFoundMessage": "The WFS dataset '{{name}}' has no layers matching '{{typeNames}}'. Either the catalog file has been set up incorrectly, or the WFS server has changed.",
+      "noLayerFoundMessage": "The WFS dataset '{{name}}' has no layers matching '{{typeNames}}'. {{suggested}} {{line}}{{line}}Either the catalog file has been set up incorrectly, or the WFS server has changed.",
       "missingDataTitle": "Missing data",
-      "missingDataMessage": "The WFS dataset '{{name}}' did not return any data. Either the catalog file has been set up incorrectly, or the server address has changed.",
+      "missingDataMessage": "The WFS dataset '{{name}}' did not return any data.{{line}}{{line}}Either the catalog file has been set up incorrectly, or the server address has changed.",
       "missingUrlTitle": "Unable to load GetCapabilities",
       "missingUrlMessage": "Could not load the Web Feature Service (WFS) GetCapabilities document because the catalog item does not have a `url`.",
       "reachedMaxFeatureLimit": "Warning: This layer has reached the WFS feature limit ({{maxFeatures}})"
@@ -1414,7 +1409,7 @@
       "getCapabilitiesUrl": "GetCapabilities URL",
       "defaultStyleLabel": "Default style",
       "noLayerFoundTitle": "No layer found",
-      "noLayerFoundMessage": "The WMS dataset '{{name}}' has no layers matching '{{layers}}'. Either the catalog file has been set up incorrectly, or the WMS server has changed.",
+      "noLayerFoundMessage": "The WMS dataset '{{name}}' has no layers matching '{{layers}}'. {{suggested}} {{line}}{{line}}Either the catalog file has been set up incorrectly, or the WMS server has changed.",
       "badlyFormatedTitle": "Badly formatted periodicity",
       "badlyFormatedMessage": "The '{{name}}' dataset has a badly formed periodicity, '{{isoSegments}}'. Click the dataset's Info button for more information about the dataset and the data custodian.",
       "missingDataTitle": "Missing data",
