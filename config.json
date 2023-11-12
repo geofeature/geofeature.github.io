@@ -53,7 +53,7 @@
 
     /*
         developerAttribution: {
-            text: "Geoff Rowland",
+            text: "Geoff Rowland and contributors",
             link: "https://github.com/geoffrowland/"
         },*/
     // This is used in various text messages. You should also set <title> in index.html
@@ -106,7 +106,7 @@
       },
       "fallbackLanguage": "en"
     },
-    "aboutButtonHrefUrl": "https://geoffrowland.github.io/geofeature3Dnew/about.html",
+    "aboutButtonHrefUrl": "about.html",
     
     "relatedMaps": [
         {
