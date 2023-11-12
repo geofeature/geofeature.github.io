@@ -125,13 +125,13 @@
            "imageUrl": "images/magicmap.png",
            "url": "https://magic.defra.gov.uk/MagicMap.aspx",
            "title": "Natural England MAGIC Map",
-           "description": "The MAGIC website provides geographic information about the natural environment from across government. The information covers rural, urban, coastal and marine environments across Great Britain. It is presented in an interactive map which can be explored using various mapping tools that are included. Users do not require specialist software and can access maps using a standard web browser."
+           "description": "The Natural England <strong>MAGIC</strong> website provides geographic information about the natural environment from across government. The information covers rural, urban, coastal and marine environments across Great Britain. It is presented in an interactive map which can be explored using various mapping tools that are included."
         },
         {
            "imageUrl": "https://terria-catalogs-public.storage.googleapis.com/misc/related-maps/nationalmap.jpg",
            "url": "http://nationalmap.gov.au/",
-           "title": "NationalMap",
-           "description": "The <strong>NationalMap</strong> is a website for map-based access to spatial data from Australian government agencies. It is an initiative of the Australian Government's Department of the Prime Minister and Cabinet and the software has been developed by Data61 working closely with the Department of the Prime Minister and Cabinet, Geoscience Australia and other government agencies."
+           "title": "Australian National Map",
+           "description": "The Australian <strong>NationalMap</strong> is a website for map-based access to spatial data from Australian government agencies. It is an initiative of the Australian Government's Department of the Prime Minister and Cabinet and the software has been developed by Data61 working closely with the Department of the Prime Minister and Cabinet, Geoscience Australia and other government agencies."
         }
     ],
     "helpContent": [
