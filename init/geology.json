@@ -510,27 +510,8 @@
       "show": true
     }
     ]
-    },
-    {
-      "type": "esri-mapServer",
-      "name": "William Smith Map 1815",
-      "url": "https://map.bgs.ac.uk/arcgis/rest/services/GeologyOfBritain/WilliamSmithMap/MapServer/",
-      "layers": "0",
-      "isOpenInWorkbench": true,
-      "allowFeaturePicking": false,
-      "hideLegendInWorkbench": false,
-      "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
-      "opacity": 0.5,
-      "show": true,
-      "legends": [
-           {
-		  "url": "images/WilliamSmith1815Key.png",
-		  "imageScaling": 1.0,
-		  "urlMimeType": "png"
-	   }
-       ]
-      }    
-    ]
+    }
+   ]
   }
  ]
 }
