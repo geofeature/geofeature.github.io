@@ -5,29 +5,70 @@
      "name": "Geology",
      "members": [
     {
-    "type": "wms",
+     "type": "group",
+     "name": "BGS 1:50 000 Geology",
+     "description": "Generalised digital geological map data based on the BGS New Series 1:50 000 and 1:63 360-scale (one-inch to one-mile) maps with updated nomenclature, including a few 1:100 000-scale maps of Orkney and the Hebrides.",
+     "members": [
+     {
+      "type": "wms",
+      "isEsri": true,
       "name": "BGS 1:50k Bedock Geology",
+      "attribution": "Contains British Geological Survey materials © UKRI 2023",
+      "description": "GBR BGS 1:50000 scale bedrock geology layer",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Bedrock",
+      "styles": "default",
       "opacity": 0.5,
       "hideLegendInWorkbench": true,
       "isOpenInWorkbench": false,
+      "info": [
+	        {
+		"name":"Abstract",
+		"content": "GBR BGS 1:50000 scale bedrock geology layer"
+                },
+		{
+		"name":"Terms of Use",
+		"content": "<a target='_blank' href='https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'>Open Government Licence</a>"
+                },
+	        {
+		"name": "Acknowledgement",
+		"content": "Contains British Geological Survey materials © UKRI 2023"
+                },     
+      ],     
+      "allowFeaturePicking": true,
+      "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
       "featureInfoTemplate": {
-		  "name": "{{LEX_RCS_D}}",
-		  "template": "{{LEX_RCS_D}}<br>Code: <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>{{LEX}}</a><br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}<br><br>Description: {{TYPE_D}}, {{BROAD_D}}<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}<br><br>Environment: {{ENVIRONMENT_D}}",
-          "partials": {
-              "Null": " "
-          }
+          "name": "{{LEX_RCS_D}}.",
+	  "partials": {"Null": ""},
+	  "template": "Description: {{TYPE_D}}, {{BROAD_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}<br><br>Environment: {{ENVIRONMENT_D}}<br><br>Further information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023"
        }
     },
     {
-    "type": "wms",
+      "type": "wms",
+      "isEsri": true,
       "name": "BGS 1:50k Surface Geology",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Superficial.deposits",
+      "styles": "default",
       "opacity": 0.5,
       "hideLegendInWorkbench": true,
       "isOpenInWorkbench": false,
+      "info": [
+	        {
+		"name":"Abstract",
+		"content": "GBR BGS 1:50000 scale superficial deposits layer"
+                },
+		{
+		"name":"Terms of Use",
+		"content": "<a target='_blank' href='https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'>Open Government Licence</a>"
+                },
+	        {
+		"name": "Acknowledgement",
+		"content": "Contains British Geological Survey materials © UKRI 2023"
+                },     
+      ], 	    
+      "allowFeaturePicking": true,
+      "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},    
       "featureInfoTemplate": {
 		  "name": "{{LEX_RCS_D}}",
 		  "template": "{{LEX_RCS_D}}<br>Code: <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>{{LEX}}</a><br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}<br><br>Description: {{TYPE_D}}, {{BROAD_D}}<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}<br><br>Environment: {{ENVIRONMENT_D}}",
@@ -37,52 +78,89 @@
        }
     },
     {
-    "type": "wms",
+      "type": "wms",
+      "isEsri": true,
       "name": "BGS 1:50k Linear Features",
-      "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Linear.features",
+      "styles": "default",
       "opacity": 1.0,
       "hideLegendInWorkbench": true,
       "isOpenInWorkbench": false,
+      "allowFeaturePicking": true,
+      "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
       "featureInfoTemplate": {
 		  "name": "{{CATEGORY}}",
 		  "template": "{{CATEGORY}}<br><br>{{FEATURE_D}}"
        }
     },
     {
-    "type": "wms",
+      "type": "wms",
+      "isEsri": true,
       "name": "BGS 1:50k Mass movement",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Mass.movement",
+      "styles": "default",
       "opacity": 1.0,
       "hideLegendInWorkbench": true,
       "isOpenInWorkbench": false,
+      "allowFeaturePicking": true,
+      "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
       "featureInfoTemplate": {
 		  "name": "{{LEX_RCS_D}}",
 		  "template": "{{LEX_RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}"
        }
     },
     {
-    "type": "wms",
+      "type": "wms",
+      "isEsri": true,
       "name": "BGS 1:50k Artificial ground",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Artificial.ground",
+      "styles": "default",
       "opacity": 1.0,
       "hideLegendInWorkbench": false,
       "isOpenInWorkbench": false,
+      "allowFeaturePicking": true,
+      "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
       "featureInfoTemplate": {
 		  "name": "{{LEX_RCS_D}}",
 		  "template": "{{LEX_RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}"
        }
+    }
+    ]
     },
     {
-    "type": "wms",
+     "type": "group",
+     "name": "BGS 1:625 000 Geology",
+     "description": "Generalised digital geological map data based on the BGS published poster maps of the UK (north and south). Bedrock-related themes were created by generalisation of 1:50 000 data to make the 2007 fifth edition bedrock geology map. Superficial gelogy-related themes were digitised from the 1977 first edition Quaternary map (north and south).",
+     "members": [
+    {
+      "type": "wms",
+      "isThredds": true,
       "name": "BGS 1:625k Bedrock Lithostratigraphy",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BLS",
+      "styles": "default",
       "minScaleDenominator": 100000,
-      "hideLayerAfterMinScaleDenominator": true,
-      "hideLegendInWorkbench": false,
+      "hideLayerAfterMinScaleDenominator": true,   
+      "allowFeaturePicking": true,
+      "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
+      "featureInfoTemplate": {
+          "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
+          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br>{{#MAX_AGE}}<br>Age: {{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>Epoch: {{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>Period: {{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>Era: {{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>Eon: {{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>Previous name(s): {{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
+	  "formats":{
+	     "MAX_TIME_Y": {
+	        "type": "number",
+		"useGrouping": true       
+	      },
+	      "MIN_TIME_Y": {
+		 "type": "number",
+		 "useGrouping": true       
+	       }	 		       
+	    }
+       },
+      "hideLegendInWorkbench": true,
       "isOpenInWorkbench": true,
       "opacity": 0.5,
       "legends": [
@@ -94,13 +172,31 @@
       ]
     },
     {
-    "type": "wms",
+      "type": "wms",
+      "isThredds": true,
       "name": "BGS 1:625k Surface Lithostratigraphy",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_SLS",
+      "styles": "default",
       "minScaleDenominator": 100000,
-      "hideLegendInWorkbench": false,
       "hideLayerAfterMinScaleDenominator": true,
+      "allowFeaturePicking": true,
+      "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
+      "featureInfoTemplate": {
+          "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
+          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br>{{#MAX_AGE}}<br>Age: {{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>Epoch: {{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>Period: {{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>Era: {{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>Eon: {{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>Previous name(s): {{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
+	  "formats":{
+	     "MAX_TIME_Y": {    
+	        "type": "number",
+		"useGrouping": true       
+	      },
+	      "MIN_TIME_Y": {
+		 "type": "number",
+		 "useGrouping": true       
+	       }	 		       
+	    }
+       },
+      "hideLegendInWorkbench": true,
       "isOpenInWorkbench": true,
       "opacity": 0.5,
       "legends": [
@@ -113,13 +209,31 @@
     },
    {
       "type": "wms",
+      "isThredds": true,
       "name": "BGS 1:625k Bedrock Lithology",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BLT",
-      "minScaleDenominator": 100000,
-      "hideLegendInWorkbench": false,
+      "styles": "default",
+      "minScaleDenominator": 100000,	  
       "hideLayerAfterMinScaleDenominator": true,
-      "isOpenInWorkbench": false,
+      "allowFeaturePicking": true,
+      "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
+      "featureInfoTemplate": {
+          "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
+          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br>{{#MAX_AGE}}<br>Age: {{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>Epoch: {{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>Period: {{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>Era: {{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>Eon: {{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>Previous name(s): {{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
+	  "formats":{
+	     "MAX_TIME_Y": {
+	        "type": "number",
+		"useGrouping": true       
+	      },
+	      "MIN_TIME_Y": {
+		 "type": "number",
+		 "useGrouping": true       
+	       }	 		       
+	    }
+       },
+      "hideLegendInWorkbench": true,
+      "isOpenInWorkbench": true,
       "opacity": 0.5,
       "legends": [
       {
@@ -130,13 +244,31 @@
       ]
     },
     {
-    "type": "wms",
+      "type": "wms",
+      "isThredds": true,
       "name": "BGS 1:625k Surface Lithology",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_SLT",
+      "styles": "default",
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
-      "hideLegendInWorkbench": false,
+      "allowFeaturePicking": true,
+      "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
+      "featureInfoTemplate": {
+          "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
+          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br>{{#MAX_AGE}}<br>Age: {{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>Epoch: {{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>Period: {{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>Era: {{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>Eon: {{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>Previous name(s): {{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
+	  "formats":{
+	     "MAX_TIME_Y": {
+	        "type": "number",
+		"useGrouping": true       
+	      },
+	      "MIN_TIME_Y": {
+		 "type": "number",
+		 "useGrouping": true       
+	       }	 		       
+	    }
+       },
+      "hideLegendInWorkbench": true,
       "isOpenInWorkbench": true,
       "opacity": 0.5,
       "legends": [
@@ -148,13 +280,31 @@
       ]
     },
     {
-    "type": "wms",
+      "type": "wms",
+      "isThredds": true,  
       "name": "BGS 1:625k Bedrock Age",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BA",
+      "styles": "default",
       "minScaleDenominator": 100000,
-      "hideLegendInWorkbench": false,
-      "hideLayerAfterMinScaleDenominator": true,
+      "hideLayerAfterMinScaleDenominator": true,    
+      "allowFeaturePicking": true,
+      "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
+      "featureInfoTemplate": {
+          "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
+          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br>{{#MAX_AGE}}<br>Age: {{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>Epoch: {{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>Period: {{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>Era: {{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>Eon: {{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>Previous name(s): {{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
+	  "formats":{
+	     "MAX_TIME_Y": {
+	        "type": "number",
+		"useGrouping": true       
+	      },
+	      "MIN_TIME_Y": {
+		 "type": "number",
+		 "useGrouping": true       
+	       }	 		       
+	    }
+       },
+      "hideLegendInWorkbench": true,
       "isOpenInWorkbench": true,
       "opacity": 0.5,
       "legends": [
@@ -163,15 +313,59 @@
 		  "imageScaling": 2.0,
 		  "urlMimeType": "image/png"
 	  }
+	 ]
+        },
+	{
+	  "type":"geojson",
+	  "name": "BGS 1:625k Faults",
+	  "url":"data/625k_v5_fault_geology_lines.geojson",
+	  "style": {
+            "stroke-width": 10,
+            "stroke": "black",
+            "stroke-opacity": 0.8
+            },
+	  "featureInfoTemplate": {
+             "name": "{{FEATURE_D}}",
+	     "template": "{{FEATURE_D}}<br />{{id}}"
+          },
+          "description":"Geological faults occur where a body of bedrock has been fractured and displaced by large scale processes affecting the earth's crust (tectonic forces). The digital data are attributed by fault type; two categories of fault are described in the data: fault at rockhead (representing normal dip-slip and strike-slip faults) and thrust fault (representing faults caused by compressive forces). The data has been generalised and shows only the location of major faults."
+	},
+	{
+	  "type":"geojson",
+	  "name": "BGS 1:625k Dykes",
+	  "url":"data/625k_v5_dykes_geology_polygons.geojson",
+	  "style": {
+            "stroke-width": 10,
+            "stroke": "blue",
+	    "stroke-opacity": 0.8,
+            "fill": "blue",
+	    "fill-opacity": 0.5
+           },
+	   "featureInfoTemplate": {
+           "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
+           "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br>{{#MAX_AGE}}<br>Age: {{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>Epoch: {{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>Period: {{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>Era: {{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>Eon: {{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>Previous name(s): {{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
+	       "formats":{
+	         "MAX_TIME_Y": {
+		   "type": "number",
+		   "useGrouping": true       
+		 },
+	         "MIN_TIME_Y": {
+		   "type": "number",
+		   "useGrouping": true       
+		 }	 		       
+	       }
+           },
+	   "description":"The Dykes data defines small, narrow areas (shown as polygons) of a specific type of bedrock geology, igneous rocks which have been intruded into the landscape. The dykes are presented as an optional, separate theme in order to provide additional clarity of the Bedrock theme. The bedrock and dykes datasets are designed to be used together."
+	 }     
       ]
     },
     {
      "type": "group",
-     "name": "DORIS",
+     "name": "DORset Integrated Seabed survey (DORIS)",
      "members": [
     {
       "type": "esri-mapServer",
-      "name": "DORIS (DORset Integrated Seabed survey) Seabed Stone Band 10K",
+      "name": "DORIS Seabed Stone Band 10K",
       "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
       "layers": "0",
       "isOpenInWorkbench": true,
@@ -179,11 +373,11 @@
       "hideLegendInWorkbench": false,
       "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
       "opacity": 0.5,
-      "show": true,
+      "show": true
     },
     {
       "type": "esri-mapServer",
-      "name": "DORIS (DORset Integrated Seabed survey) Seabed Fold 10K",
+      "name": "DORIS Seabed Fold 10K",
       "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
       "layers": "1",
       "isOpenInWorkbench": true,
@@ -191,11 +385,11 @@
       "hideLegendInWorkbench": false,
       "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
       "opacity": 0.5,
-      "show": true,
+      "show": true
     },
     {
       "type": "esri-mapServer",
-      "name": "DORIS (DORset Integrated Seabed survey) Seabed Faults 10K",
+      "name": "DORIS Seabed Faults 10K",
       "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
       "layers": "2",
       "isOpenInWorkbench": true,
@@ -203,11 +397,11 @@
       "hideLegendInWorkbench": false,
       "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
       "opacity": 0.5,
-      "show": true,
+      "show": true
     },
     {
       "type": "esri-mapServer",
-      "name": "DORIS (DORset Integrated Seabed survey) Onshore Linear Features 10K",
+      "name": "DORIS Onshore Linear Features 10K",
       "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
       "layers": "3",
       "isOpenInWorkbench": true,
@@ -215,11 +409,11 @@
       "hideLegendInWorkbench": false,
       "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
       "opacity": 0.5,
-      "show": true,
+      "show": true
     },
     {
       "type": "esri-mapServer",
-      "name": "DORIS (DORset Integrated Seabed survey) Seabed Geology 10k",
+      "name": "DORIS Seabed Geology 10k",
       "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
       "layers": "4",
       "isOpenInWorkbench": true,
@@ -227,11 +421,11 @@
       "hideLegendInWorkbench": false,
       "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
       "opacity": 0.5,
-      "show": true,
+      "show": true
     },
     {
       "type": "esri-mapServer",
-      "name": "DORIS (DORset Integrated Seabed survey) Clipped Geology 10K",
+      "name": "DORIS Clipped Geology 10K",
       "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
       "layers": "5",
       "isOpenInWorkbench": true,
@@ -245,7 +439,7 @@
     },
     {
       "type": "esri-mapServer",
-      "name": "DORIS (DORset Integrated Seabed survey) Hillshade 10K",
+      "name": "DORIS Hillshade 10K",
       "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
       "layers": "6",
       "isOpenInWorkbench": true,
@@ -253,7 +447,7 @@
       "hideLegendInWorkbench": false,
       "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
       "opacity": 0.5,
-      "show": true,
+      "show": true
     }
     ]
     },
@@ -269,29 +463,14 @@
       "opacity": 0.5,
       "show": true,
       "legends": [
-      {
+           {
 		  "url": "images/WilliamSmith1815Key.png",
 		  "imageScaling": 1.0,
 		  "urlMimeType": "png"
-	  }
-     ]
-    },
-    {
-      "type": "wms-group",
-      "name": "GeoIndes: Mineral resources",
-      "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WmsServer"
-    },
-    {
-      "type": "wms-group",
-      "name": "GeoIndex: Boreholes",
-      "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/boreholes/MapServer/WmsServer"	   
-    },
-    {
-      "type": "wms-group",
-      "name": "GeoIndex: Hazards",
-      "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/hazards/MapServer/WmsServer"	   
-    }      
-   ]
+	   }
+       ]
+      }    
+    ]
   }
  ]
 }

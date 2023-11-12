@@ -5,10 +5,9 @@
      "name": "Imagery",
      "members": [
     {
-      "url": "https://google.com/vt/",
+      "url": "https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
       "subdomains": ["mt0","mt1","mt2","mt3"],
-      "type": "open-street-map",
-      "google": true,
+      "type": "url-template-imagery",
       "opacity": 0.5,
       "isOpenInWorkbench": false,
       "isOpenInWorkbench": false,
@@ -35,7 +34,14 @@
           "mapStyle": "AerialWithLabelsOnDemand",
           "description": "Bing Maps Aerial with labels",
           "opacity": 0.5
-    }    
+    },
+    {
+          "name": "ArcGIS World Imagery",
+          "type": "esri-mapServer",
+          "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/",
+          "layers": "3",
+          "opacity": 0.5
+    },
    ]
   }
  ]
