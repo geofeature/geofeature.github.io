@@ -22,6 +22,7 @@
            "dataCustodian": "Contains British Geological Survey materials © UKRI 2022",
            "sortMembersBy": "name",
            "itemProperties": {
+              "allowFeaturePicking": true,
               "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
               "styles": "default"
            }
@@ -34,6 +35,7 @@
            "dataCustodian": "Contains British Geological Survey materials © UKRI 2022",
            "sortMembersBy": "name",
            "itemProperties": {
+              "allowFeaturePicking": true,
               "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
               "styles": "default"
            }
@@ -46,6 +48,7 @@
            "dataCustodian": "Contains British Geological Survey materials © UKRI 2022",
            "sortMembersBy": "name",
            "itemProperties": {
+              "allowFeaturePicking": true,
               "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
               "styles": "default"
            }
@@ -57,6 +60,7 @@
            "description":"Geological Materials Copyright NERC. All rights reserved.",
            "sortMembersBy": "name",
            "itemProperties": {
+              "allowFeaturePicking": true,
               "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
               "styles": "default"
           }
