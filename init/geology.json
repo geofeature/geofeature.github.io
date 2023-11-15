@@ -374,7 +374,7 @@
 		  "urlMimeType": "image/png"
 	  }
 	 ]
-        },
+    },
 	{
 	  "type":"geojson",
 	  "name": "BGS 1:625k Faults",
@@ -416,8 +416,8 @@
 	       }
            },
 	   "description":"The Dykes data defines small, narrow areas (shown as polygons) of a specific type of bedrock geology, igneous rocks which have been intruded into the landscape. The dykes are presented as an optional, separate theme in order to provide additional clarity of the Bedrock theme. The bedrock and dykes datasets are designed to be used together."
-	 }
-      ]
+	  }
+     ]
     },
     {
      "type": "group",
@@ -473,9 +473,9 @@
               "allowFeaturePicking": true,
               "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
               "styles": "default"
-          }
-        }
-      ]
-    }
-  ]
-}
+           }
+         }
+       ]
+     }
+   ]
+ }
