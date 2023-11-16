@@ -44,6 +44,32 @@
           ]
         },
 	{
+          "url": "https://geoffrowland.github.io/Hillshade-1m-Ham-Hill/{z}/{x}/{reverseY}.png",
+          "type": "url-template-imagery",
+          "dataCustodian": "Geoff Rowland",
+          "name": "Hillshade 1m Ham Hill",
+          "maximumLevel": 18,
+          "isOpenInWorkbench": false,
+          "opacity": 1.0,
+          "rectangle": {
+			  "west": -2.7128800609572696,
+			  "south": 50.93180912268607,
+			  "east": -2.7847834596999994,
+			  "north": 50.97722047816231
+			  },
+          "tileErrorHandlingOptions": {
+			  "treat403AsError": false,
+			  "treat404AsError": false,
+			  "ignoreUnknownTileErrors": true
+		  },
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+	{
           "url": "https://geoffrowland.github.io/Hillshade-1m-Cornwall-West/{z}/{x}/{reverseY}.png",
           "type": "url-template-imagery",
           "dataCustodian": "Geoff Rowland",
