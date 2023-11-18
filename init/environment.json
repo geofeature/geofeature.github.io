@@ -183,8 +183,7 @@
                     {"value":"Suffolk Coast & Heaths","color":"rgba(223,142,61,1)"},
 		    {"value":"Chilterns","color":"rgba(231,126,20,1)"},
                     {"value":"North Wessex Downs","color":"rgba(131,227,34,1)"}
-            ],
-            "colorPalette":"HighContrast"
+            ]
 },
 "hidden":false
 }
