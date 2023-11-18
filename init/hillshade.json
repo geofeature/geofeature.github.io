@@ -48,7 +48,7 @@
           "type": "url-template-imagery",
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 1m Ham Hill",
-          "maximumLevel": 18,
+          "maximumLevel": 19,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
