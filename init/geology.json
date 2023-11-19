@@ -33,7 +33,7 @@
 	        {
 		"name": "Acknowledgement",
 		"content": "Contains British Geological Survey materials © UKRI 2023"
-                },     
+                }    
       ],     
       "allowFeaturePicking": true,
       "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
@@ -88,8 +88,8 @@
                         "value":"HAM HILL LIMESTONE MEMBER",
                         "color":"rgba(91,2,16,1)"
                         }],
-                 },
-             "hidden":false
+              },
+              "hidden":false
          }],
          "activeStyle":"LEX_D",
          "featureInfoTemplate": {
