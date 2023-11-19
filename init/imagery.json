@@ -5,22 +5,13 @@
      "name": "Imagery",
      "members": [
     {
-      "url": "https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
-      "subdomains": ["mt0","mt1","mt2","mt3"],
-      "type": "url-template-imagery",
-      "opacity": 0.5,
-      "isOpenInWorkbench": false,
-      "isOpenInWorkbench": false,
-      "name": "Google Satellite",
-      "description": "Satellite and aerial imagery from Google and third-party data providers",
-      "hideSource": true,
-      "attribution": "Imagery &copy; 2023 Google and third-party data providers",
-      "rectangle": {
-	      "west": -10.722656,
-		  "south": 49.84,
-		  "east": 2.2,
-		  "north": 60.930432
-       }
+          "name": "ArcGIS World Imagery",
+          "type": "esri-mapServer",
+          "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/",
+          "layers": "3",
+          "opacity": 0.5,
+	  "description": "Satellite and aerial imagery from Esri, third-party data providers, and the GIS User Community",
+	  "attribution": "Tiles &copy; 2023 Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
     },
     {
           "name": "Aerial Bing Maps",
@@ -40,14 +31,24 @@
           "opacity": 0.5,
           "attribution": "Bing Maps &copy; 2023 Microsoft"
     },
-    {
-          "name": "ArcGIS World Imagery",
-          "type": "esri-mapServer",
-          "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/",
-          "layers": "3",
-          "opacity": 0.5,
-	  "attribution": "Tiles &copy; 2023 Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
-    },
+{
+      "url": "https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
+      "subdomains": ["mt0","mt1","mt2","mt3"],
+      "type": "url-template-imagery",
+      "opacity": 0.5,
+      "isOpenInWorkbench": false,
+      "isOpenInWorkbench": false,
+      "name": "Google Satellite",
+      "description": "Satellite and aerial imagery from Google and third-party data providers",
+      "hideSource": true,
+      "attribution": "Imagery &copy; 2023 Google and third-party data providers",
+      "rectangle": {
+	      "west": -10.722656,
+		  "south": 49.84,
+		  "east": 2.2,
+		  "north": 60.930432
+       }
+    }
    ]
   }
  ]
