@@ -3,7 +3,7 @@
   "initializationUrls": [
       "home",
       "geology",
-      "geoindex",
+   /* "geoindex", */
       "hillshade",
       "maps",
       "imagery",
