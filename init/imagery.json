@@ -42,6 +42,12 @@
       "description": "Satellite and aerial imagery from Google and third-party data providers",
       "hideSource": true,
       "attribution": "Imagery &copy; 2023 Google and third-party data providers",
+      "info": [
+		{
+		"name":"Terms of Use",
+		"content": "<a target='_blank' href='https://www.google.com/intl/en_uk/help/terms_maps/'>Google Maps/Google Earth Additional Terms of Service</a>"
+                }
+      ],   
       "rectangle": {
 	      "west": -10.722656,
 		  "south": 49.84,
