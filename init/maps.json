@@ -879,9 +879,15 @@
 	  "dataCustodian": "Microsoft Bing",
           "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
           "mapStyle": "ORDNANCESURVEY",
-          "description": "The map displays Ordnance Survey imagery. Bing Maps provides the 1:25,000 OS Explorer Map and 1:50,000 OS Landranger maps.",
+          "description": "Ordnance Survey imagery. Bing Maps provides the 1:25,000 OS Explorer Map and 1:50,000 OS Landranger maps.",
 	  "maximumLevel": 19,
-          "opacity": 0.5
+          "opacity": 0.5,
+	  "info": [
+		{
+		"name":"Terms of Use",
+		"content": "<a target='_blank' href='https://www.microsoft.com/en-us/maps/bing-maps/licensing'>Bing Maps Licensing</a>"
+                }
+          ] 
     },      
 
     {
