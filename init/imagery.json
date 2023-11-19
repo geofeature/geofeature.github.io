@@ -11,7 +11,13 @@
           "layers": "3",
           "opacity": 0.5,
 	  "description": "Satellite and aerial imagery from Esri, third-party data providers, and the GIS User Community",
-	  "attribution": "Tiles &copy; 2023 Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+	  "attribution": "Tiles &copy; 2023 Esri, Maxar, Earthstar Geographics, and the GIS User Community",
+	  "info": [
+		{
+		"name":"Terms of Use",
+		"content": "<a target='_blank' href='https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9#'>Esri Word Imagery</a>"
+                }
+      ] 
     },
     {
           "name": "Aerial Bing Maps",
@@ -20,7 +26,13 @@
           "mapStyle": "Aerial",
           "description": "Satellite and aerial imagery from Microsoft and third-party data providers",
           "opacity": 0.5,
-          "attribution": "Bing Maps &copy; 2023 Microsoft"
+          "attribution": "Bing Maps &copy; 2023 Microsoft",
+	  "info": [
+		{
+		"name":"Terms of Use",
+		"content": "<a target='_blank' href='https://www.microsoft.com/en-us/maps/bing-maps/licensing'>Bing Maps Licensing</a>"
+                }
+      ] 
     },
     {
           "name": "Aerial with labels Bing Maps",
@@ -29,9 +41,15 @@
           "mapStyle": "AerialWithLabelsOnDemand",
           "description": "Satellite and aerial imagery, with roads and labels overlaid, from Microsoft and third-party data providers",
           "opacity": 0.5,
-          "attribution": "Bing Maps &copy; 2023 Microsoft"
+          "attribution": "Bing Maps &copy; 2023 Microsoft",
+	  "info": [
+		{
+		"name":"Terms of Use",
+		"content": "<a target='_blank' href='https://www.microsoft.com/en-us/maps/bing-maps/licensing'>Bing Maps Licensing</a>"
+                }
+      ] 
     },
-{
+    {
       "url": "https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
       "subdomains": ["mt0","mt1","mt2","mt3"],
       "type": "url-template-imagery",
