@@ -12,6 +12,7 @@
       "isOpenInWorkbench": false,
       "isOpenInWorkbench": false,
       "name": "Google Satellite",
+      "description": "Satellite and aerial imagery from Google and third-party data providers",
       "hideSource": true,
       "attribution": "Imagery &copy; 2023 Google and third-party data providers",
       "rectangle": {
@@ -26,7 +27,7 @@
           "type": "bing-maps",
           "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
           "mapStyle": "Aerial",
-          "description": "Bing Maps Aerial",
+          "description": "Satellite and aerial imagery from Microsoft and third-party data providers",
           "opacity": 0.5,
           "attribution": "Bing Maps &copy; 2023 Microsoft"
     },
@@ -35,7 +36,7 @@
           "type": "bing-maps",
           "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
           "mapStyle": "AerialWithLabelsOnDemand",
-          "description": "Bing Maps Aerial with labels",
+          "description":  "description": "Satellite and aerial imagery, with roads and labels overlaid, from Microsoft and third-party data providers",
           "opacity": 0.5,
           "attribution": "Bing Maps &copy; 2023 Microsoft"
     },
