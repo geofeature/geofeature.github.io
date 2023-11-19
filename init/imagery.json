@@ -11,7 +11,8 @@
       "opacity": 0.5,
       "isOpenInWorkbench": false,
       "isOpenInWorkbench": false,
-      "name": "Satellite",
+      "name": "Google Satellite",
+      "hideSource": true,
       "rectangle": {
 	      "west": -10.722656,
 		  "south": 49.84,
