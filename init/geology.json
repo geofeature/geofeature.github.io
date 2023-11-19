@@ -582,19 +582,19 @@
 		     "enumColors": [
 			 {
 		             "value": "Proposed",
-			     "color": "rgba(0,200,0,1.0)"
+			     "color": "rgba(0,255,0,0.8)"
 			 },
 			 {
 		             "value": "Notified",
-			     "color": "rgba(0,0,200,1.0)"
+			     "color": "rgba(0,0,255,0.8)"
 			 },
 			 {
 		             "value": "Confirmed",
-			     "color": "rgba(200,0,0,1.00)"
+			     "color": "rgba(255,0,0,0.8)"
 			 },
 			 {
 		             "value": "Deleted",
-			     "color": "rgba(0,0,0,1.00)"
+			     "color": "rgba(0,0,0,0.8)"
 			 }    
 		     ]
 		  }
