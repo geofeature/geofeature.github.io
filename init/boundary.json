@@ -275,11 +275,11 @@
 	     "dataCustodian": "Ordnance Survey licensed under the Open Government Licence v.3.0.",    
              "zoomOnAddToWorkbench": false,
              "style": {
-                  "fill-opacity": 0.0
+                  "fill-opacity": 0.1
              },
              "featureInfoTemplate": {
                  "name": "British National Grid 100 km",
-                 "template": "{{tile_name}}"
+                 "template": "100 km grid: {{tile_name}}"
              }	
          },
          {
@@ -291,11 +291,11 @@
 	     "dataCustodian": "Ordnance Survey licensed under the Open Government Licence v.3.0.",    
              "zoomOnAddToWorkbench": false,
              "style": {
-                  "fill-opacity": 0.0
+                  "fill-opacity": 0.1
              },
              "featureInfoTemplate": {
                  "name": "British National Grid 50 km",
-                 "template": "{{tile_name}}"
+                 "template": "50 km grid: {{tile_name}}"
              }	
          }
       ]
