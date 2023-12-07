@@ -291,10 +291,8 @@
 	     "attribution": "Contains OS data © Crown copyright and database right 2022",
 	     "dataCustodian": "Ordnance Survey licensed under the Open Government Licence v.3.0.",    
              "zoomOnAddToWorkbench": false,
+             "opacity": 0.1,		 
 	     "disableOpacityControl": false,
-             "style": {
-                  "fill-opacity": 0.1
-             },
              "featureInfoTemplate": {
                  "name": "British National Grid 50 km",
                  "template": "50 km grid: {{tile_name}}"
