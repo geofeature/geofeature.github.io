@@ -274,6 +274,7 @@
 	     "attribution": "Contains OS data © Crown copyright and database right 2022",
 	     "dataCustodian": "Ordnance Survey licensed under the Open Government Licence v.3.0.",    
              "zoomOnAddToWorkbench": false,
+	     "disableOpacityControl: false,
              "style": {
                   "fill-opacity": 0.1
              },
@@ -290,6 +291,7 @@
 	     "attribution": "Contains OS data © Crown copyright and database right 2022",
 	     "dataCustodian": "Ordnance Survey licensed under the Open Government Licence v.3.0.",    
              "zoomOnAddToWorkbench": false,
+	     "disableOpacityControl: false,
              "style": {
                   "fill-opacity": 0.1
              },
