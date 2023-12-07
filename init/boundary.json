@@ -243,10 +243,10 @@
          },
          {
              "type": "geojson",
-             "name": "Somerset",
+	     "name": "Somerset",
              "url": "data/somerset.geojson",
-	     "description": "County boundary of Cornwall",
-	     "attribution": "Contains OS data © Crown copyright and database right 2022",
+             "description": "County boundary of Somerset",
+	     "attribution": "Contains OS data © Crown copyright and database right 2021",
 	     "dataCustodian": "Office for National Statistics licensed under the Open Government Licence v.3.0.",    
              "zoomOnAddToWorkbench": true,
              "style": {
@@ -259,7 +259,23 @@
                  "name": "Somerset",
                  "template": "{{CTYNME}}"
              }	
-         }
+         },
+	 {
+             "type": "geojson",
+             "name": "OS 100km grid",
+             "url": "data/odgrid/100km_grid.geojson",
+	     "description": "British National Grid 100km graticule",
+	     "attribution": "Contains OS data © Crown copyright and database right 2022",
+	     "dataCustodian": "Ordnance Survey licensed under the Open Government Licence v.3.0.",    
+             "zoomOnAddToWorkbench": true,
+             "style": {
+                  "fill-opacity": 0.2
+             },
+             "featureInfoTemplate": {
+                 "name": "British National Grid 100k",
+                 "template": "{{tile_name}}"
+             }	
+         }	 
       ]
     }
   ]
