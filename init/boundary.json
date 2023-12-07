@@ -273,7 +273,7 @@
 	     "description": "British National Grid 100km graticule",
 	     "attribution": "Contains OS data © Crown copyright and database right 2022",
 	     "dataCustodian": "Ordnance Survey licensed under the Open Government Licence v.3.0.",    
-             "zoomOnAddToWorkbench": true,
+             "zoomOnAddToWorkbench": false,
              "style": {
                   "fill-opacity": 0.0
              },
@@ -289,7 +289,7 @@
 	     "description": "British National Grid 50 km graticule",
 	     "attribution": "Contains OS data © Crown copyright and database right 2022",
 	     "dataCustodian": "Ordnance Survey licensed under the Open Government Licence v.3.0.",    
-             "zoomOnAddToWorkbench": true,
+             "zoomOnAddToWorkbench": false,
              "style": {
                   "fill-opacity": 0.0
              },
