@@ -279,7 +279,7 @@
              },
              "featureInfoTemplate": {
                  "name": "British National Grid 100 km",
-                 "template": "100 km grid: {{tile_name}}"
+                 "template": "{{tile_name}}"
              }	
          },
          {
@@ -295,7 +295,7 @@
              },
              "featureInfoTemplate": {
                  "name": "British National Grid 50 km",
-                 "template": "50 km grid: {{tile_name}}"
+                 "template": "{{tile_name}}"
              }	
          }
       ]
