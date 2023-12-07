@@ -241,7 +241,11 @@
                  "template": "{{CTYNME}}"
              }			 
          },
-         {
+       {
+       "type": "group",
+       "name": "British National Grid",
+       "members": [	     
+       {  
              "type": "geojson",
 	     "name": "Somerset",
              "url": "data/somerset.geojson",
@@ -257,7 +261,7 @@
              },
              "featureInfoTemplate": {
                  "name": "Somerset",
-                 "template": "{{CTYNME}}"
+                 "template": "100 km Grid{{CTYNME}}"
              }	
          },
 	 {
@@ -269,13 +273,29 @@
 	     "dataCustodian": "Ordnance Survey licensed under the Open Government Licence v.3.0.",    
              "zoomOnAddToWorkbench": true,
              "style": {
-                  "fill-opacity": 0.2
+                  "fill-opacity": 0.0
              },
              "featureInfoTemplate": {
-                 "name": "British National Grid 100k",
-                 "template": "{{tile_name}}"
+                 "name": "British National Grid 100 km",
+                 "template": "100 km grid: {{tile_name}}"
              }	
-         }	 
+         },
+         {
+             "type": "geojson",
+             "name": "OS 50 km grid",
+             "url": "data/odgrid/50km_grid.geojson",
+	     "description": "British National Grid 50 km graticule",
+	     "attribution": "Contains OS data © Crown copyright and database right 2022",
+	     "dataCustodian": "Ordnance Survey licensed under the Open Government Licence v.3.0.",    
+             "zoomOnAddToWorkbench": true,
+             "style": {
+                  "fill-opacity": 0.0
+             },
+             "featureInfoTemplate": {
+                 "name": "British National Grid 50 km",
+                 "template": "50 km grid: {{tile_name}}"
+             }	
+         }
       ]
     }
   ]
