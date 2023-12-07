@@ -241,11 +241,7 @@
                  "template": "{{CTYNME}}"
              }			 
          },
-       {
-       "type": "group",
-       "name": "British National Grid",
-       "members": [	     
-       {  
+         {  
              "type": "geojson",
 	     "name": "Somerset",
              "url": "data/somerset.geojson",
@@ -262,8 +258,14 @@
              "featureInfoTemplate": {
                  "name": "Somerset",
                  "template": "100 km Grid{{CTYNME}}"
-             }	
+             }
+	 }
+	 ]
          },
+	 {
+       "type": "group",
+       "name": "British National Grid",
+       "members": [	
 	 {
              "type": "geojson",
              "name": "OS 100km grid",
