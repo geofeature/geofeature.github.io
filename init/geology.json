@@ -427,6 +427,13 @@
           "maximumLevel": 12,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
+	  "legends": [
+              {
+		  "url": "images/WilliamSmith1815Key.png",
+		  "imageScaling": 1.0,
+		  "urlMimeType": "png"
+	      }
+          ],
           "rectangle": {
 			  "west": -6.957750020126686,
 			  "south": 48.81291575915598,
