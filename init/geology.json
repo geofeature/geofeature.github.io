@@ -419,6 +419,32 @@
 	 }
       ]
     },
+	     {
+          "url": "https://geoffrowland.github.io/WikkiamSmith1815/{z}/{x}/{reverseY}.png",
+          "type": "url-template-imagery",
+          "dataCustodian": "Geoff Rowland",
+          "name": "William Smith 1815",
+          "maximumLevel": 12,
+          "isOpenInWorkbench": false,
+          "opacity": 1.0,
+          "rectangle": {
+			  "west": -6.957750020126686,
+			  "south": 48.81291575915598,
+			  "east": 2.5294526158630073,
+			  "north": 56.62625885052594
+			  },
+          "tileErrorHandlingOptions": {
+			  "treat403AsError": false,
+			  "treat404AsError": false,
+			  "ignoreUnknownTileErrors": true
+		  },
+          "info": [
+            {
+              "name": "Licence",
+              "content": "William Smith 1815)"
+            }
+          ]
+        },
     {     
 	     "type": "group",
              "name": "Geological Conservation Review (GCR) sites",
