@@ -512,7 +512,7 @@
      "name": "OS 1st Edition ~1880",
      "description":"OS 25 inch to the mile (1:2,500) 1873-1888 (SW England)",
      "dataCustodian": "National Library of Scotland",
-     "hideSouce": true,
+     "hideSource": true,
      "info": [
          {
              "name": "Licence",
@@ -528,7 +528,7 @@
           "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/devon/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
           "dataCustodian": "NLS",
-	  "hideSouce": true,
+	  "hideSource": true,
           "name": "Devon OS 1873-88",
           "opacity": 0.5,
 	  "maximumLevel": 18,	
@@ -555,7 +555,7 @@
 	  {
 	  "url": "https://geoffrowland.github.io/OS-First-Dorset-1/{z}/{x}/{reverseY}.png",
           "type": "url-template-imagery",
-	  "hideSouce": true,
+	  "hideSource": true,
 	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
           "dataCustodian": "EDINA Digimap and NLS",
           "name": "Dorset-1 OS 1860-88",
@@ -577,7 +577,7 @@
 	  {
 	  "url": "https://geoffrowland.github.io/OS-First-Dorset-2/{z}/{x}/{reverseY}.png",
           "type": "url-template-imagery",
-	  "hideSouce": true,
+	  "hideSource": true,
 	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
           "dataCustodian": "EDINA Digimap and NLS",
           "name": "Dorset-2 OS 1860-88",
@@ -599,7 +599,7 @@
 	  {
 	  "url": "https://geoffrowland.github.io/OS-First-Dorset-3/{z}/{x}/{reverseY}.png",
           "type": "url-template-imagery",
-	  "hideSouce": true,
+	  "hideSource": true,
 	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
           "dataCustodian": "EDINA Digimap and NLS",
           "name": "Dorset-3 OS 1860-88",
@@ -621,7 +621,7 @@
 	  {
 	  "url": "https://geoffrowland.github.io/OS-First-Dorset-4/{z}/{x}/{reverseY}.png",
           "type": "url-template-imagery",
-	  "hideSouce": true,
+	  "hideSource": true,
 	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
           "dataCustodian": "EDINA Digimap and NLS",
           "name": "Dorset-4 OS 1860-88",
@@ -643,7 +643,7 @@
 	  {
 	  "url": "https://geoffrowland.github.io/OS-First-Dorset-5/{z}/{x}/{reverseY}.png",
           "type": "url-template-imagery",
-	  "hideSouce": true,
+	  "hideSource": true,
 	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
           "dataCustodian": "EDINA Digimap and NLS",
           "name": "Dorset-5 OS 1860-88",
@@ -665,7 +665,7 @@
 	  {
 	  "url": "https://geoffrowland.github.io/OS-First-Dorset-6/{z}/{x}/{reverseY}.png",
           "type": "url-template-imagery",
-	  "hideSouce": true,
+	  "hideSource": true,
 	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
           "dataCustodian": "EDINA Digimap and NLS",
           "name": "Dorset-6 OS 1860-88",
@@ -687,7 +687,7 @@
 	  {
 	  "url": "https://geoffrowland.github.io/OS-First-Dorset-7/{z}/{x}/{reverseY}.png",
           "type": "url-template-imagery",
-	  "hideSouce": true,
+	  "hideSource": true,
 	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
           "dataCustodian": "EDINA Digimap and NLS",
           "name": "Dorset-7 OS 1860-88",
@@ -709,7 +709,7 @@
 	  {
 	  "url": "https://geoffrowland.github.io/OS-First-Dorset-8/{z}/{x}/{reverseY}.png",
           "type": "url-template-imagery",
-	  "hideSouce": true,
+	  "hideSource": true,
 	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
           "dataCustodian": "EDINA Digimap and NLS",
           "name": "Dorset-8 OS 1860-88",
@@ -731,7 +731,7 @@
 	  {
 	  "url": "https://geoffrowland.github.io/OS-First-Dorset-9/{z}/{x}/{reverseY}.png",
           "type": "url-template-imagery",
-	  "hideSouce": true,
+	  "hideSource": true,
 	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
           "dataCustodian": "EDINA Digimap and NLS",
           "name": "Dorset-9 OS 1860-88",
@@ -755,7 +755,7 @@
 	  {
           "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/somerset1/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
-	  "hideSouce": true,
+	  "hideSource": true,
           "dataCustodian": "NLS",
           "name": "Somerset OS 1886",
           "opacity": 0.5,
@@ -778,7 +778,7 @@
 	{
         "type": "group",
         "name": "OS 2nd Edition ~1900",
-	"hideSouce": true,
+	"hideSource": true,
         "members": [
 	          {
           "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/devon2nd/{z}/{x}/{y}.png",
@@ -810,7 +810,7 @@
           "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/dorset/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
           "dataCustodian": "NLS",
-	  "hideSouce": true,
+	  "hideSource": true,
           "name": "Dorset OS 1900",
           "opacity": 0.5,
 	  "maximumLevel": 18,
@@ -836,7 +836,7 @@
         {
           "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/somerset/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
-	  "hideSouce": true,
+	  "hideSource": true,
           "dataCustodian": "NLS",
           "name": "Somerset OS 1901",
           "opacity": 0.5,
@@ -865,7 +865,7 @@
 	{
           "url": "https://mapseries-tilesets.s3.amazonaws.com/os/britain10knatgrid/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
-	  "hideSouce": true,
+	  "hideSource": true,
           "dataCustodian": "NLS",
           "name": "1:10,000 OS 1949-1971",
           "opacity": 0.5,
@@ -892,7 +892,7 @@
         {
           "name": "OS 1:50 000 and 1:25 000 (Bing)",
           "type": "bing-maps",
-	  "hideSouce": true,
+	  "hideSource": true,
 	  "attribution": "Microsoft Bing and OS Crown Copyright",
 	  "dataCustodian": "Microsoft Bing",
           "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
@@ -911,7 +911,7 @@
     {
           "name": "OS Outdoor",
           "type": "url-template-imagery",
-	  "hideSouce": true,
+	  "hideSource": true,
 	  "attribution": "OS Crown Copyright",
 	  "dataCustodian": "Ordnance Survey",
 	  "description": "Ordnance Survey Outdoors",
@@ -928,7 +928,7 @@
     {
           "name": "OS Road",
           "type": "url-template-imagery",
-	  "hideSouce": true,
+	  "hideSource": true,
 	  "attribution": "OS Crown Copyright",
 	  "dataCustodian": "Ordnance Survey",
 	  "description": "Ordnance Survey Road",
@@ -945,7 +945,7 @@
     {
           "name": "OS Light",
           "type": "url-template-imagery",
-	  "hideSouce": true,
+	  "hideSource": true,
 	  "attribution": "OS Crown Copyright",
 	  "dataCustodian": "Ordnance Survey",
 	  "description": "Ordnance Survey Light",
