@@ -11,6 +11,7 @@
            "url":  "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wms",
            "layers": "Lidar_Composite_Hillshade_DTM_1m",
 	   "opacity":1.0,
+	   "hideLegendInWorkbench": true,
 	   "tileErrorHandlingOptions":{
 	     "thresholdBeforeDisablingItem": 10,
 	     "treat403AsError": false,
