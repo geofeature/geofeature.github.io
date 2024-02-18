@@ -12,7 +12,7 @@
            "layers": "Lidar_Composite_Hillshade_DTM_1m",
 	   "opacity":1.0,
 	   "hideLegendInWorkbench": true,
-	   "tileErrorHandlingOptions":{
+	   "tileErrorHandlingOptions": {
 	     "thresholdBeforeDisablingItem": 10,
 	     "treat403AsError": false,
 	     "treat403AsError": false,
