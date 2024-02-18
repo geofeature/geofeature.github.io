@@ -10,10 +10,13 @@
            "name": "Lidar_Composite_Hillshade_DTM_1m",
            "url":  "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wms",
            "layers": "Lidar_Composite_Hillshade_DTM_1m",
-	   "thresholdBeforeDisablingItem":10,
-	   "treat403AsError":false,
-	   "treat403AsError":false,
-	   "ignoreUnknownTileErrors":true
+	   "opacity":1.0,
+	   "tileErrorHandlingOptions":[
+	     "thresholdBeforeDisablingItem":10,
+	     "treat403AsError":false,
+	     "treat403AsError":false,
+	     "ignoreUnknownTileErrors":true
+           ]
          },    
          {
           "url": "https://geoffrowland.github.io/Hillshade-25m/{z}/{x}/{reverseY}.png",
