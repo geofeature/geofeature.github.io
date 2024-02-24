@@ -898,7 +898,7 @@
           "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
           "mapStyle": "ORDNANCESURVEY",
           "description": "Ordnance Survey imagery. Bing Maps provides the 1:25,000 OS Explorer Map and 1:50,000 OS Landranger maps.",
-	  "culture": "en-GB",
+	  /*"culture": "en-GB",*/
 	  "maximumLevel": 19,
           "opacity": 0.5,
 	  "info": [
