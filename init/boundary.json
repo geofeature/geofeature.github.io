@@ -342,8 +342,8 @@
                   "fill-opacity": 0.1
              },
              "featureInfoTemplate": {
-                 "name": "British National Grid 5 km",
-                 "template": "5 km grid: {{tile_name}}"
+                 "name": "British National Grid 5 km {{id}}",
+                 "template": "5 km grid: {{id}}"
              }	
          }
       ]
