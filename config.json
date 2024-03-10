@@ -20,8 +20,10 @@
     "cesiumTerrainAssetId": 2366871,
     /* "cesiumTerrainAssetId": 2358649,*/
     "bingMapsKey": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
-    "hideTerriaLogo": false,
+    "hideTerriaLogo": true,
     "tabbedCatalog": true,
+    "extraCreditLinks": "",
+    "leafletAttributionPrefix": "",
 
     // Log ConsoleAnalytics events to console
     // logToConsole: true,
