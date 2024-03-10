@@ -341,9 +341,10 @@
              "style": {
                   "fill-opacity": 0.1
              },
+	     "maxRequests": 1,
              "featureInfoTemplate": {
-                 "name": "British National Grid 5 km {{id}}",
-                 "template": "5 km grid: {{id}}"
+                 "name": "{{id}}",
+                 "template": "{{id}}"
              }	
          }
       ]
