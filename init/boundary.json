@@ -145,6 +145,12 @@
 	 "dataCustodian": "Office for National Statistics licensed under the Open Government Licence v.3.0.",  
          "isOpenInWorkbench": false,
 	 "zoomOnAddToWorkbench": false,
+	 "rectangle": {
+	     "west": -3.83982,
+	     "south": 50.82085,
+	     "east": -2.24440,
+	     "north": 51.33300
+	 },
          "style": {
             "stroke": "black",
             "stroke-width": 1,
@@ -168,6 +174,12 @@
 	 "dataCustodian": "Office for National Statistics licensed under the Open Government Licence v.3.0.",  
          "isOpenInWorkbench": false,
 	 "zoomOnAddToWorkbench": false,
+	 "rectangle": {
+	     "west": -3.83982,
+	     "south": 50.82085,
+	     "east": -2.24440,
+	     "north": 51.33300
+	 },
          "style": {
             "stroke": "black",
             "stroke-width": 1,
@@ -249,6 +261,12 @@
 	     "attribution": "Contains OS data © Crown copyright and database right 2021",
 	     "dataCustodian": "Office for National Statistics licensed under the Open Government Licence v.3.0.",    
              "zoomOnAddToWorkbench": false,
+	     "rectangle": {
+		"west": -3.83982,
+		"south": 50.82085,
+		"east": -2.24440,
+		"north": 51.33300
+	     },
              "style": {
                  "stroke": "black",
                  "stroke-width": 2,
