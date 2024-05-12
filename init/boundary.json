@@ -317,7 +317,7 @@
 	 {		 	 
 	     "type": "geojson",
              "name": "Mills",
-             "url": "data/HamHillMillsLatest.geojson",
+             "url": "data/HamHillMills.geojson",
 	     "description": "Ham Hill Mills",
 	     "attribution": "Contains OS data © Crown copyright and database right 2024",
 	     "dataCustodian": "Ordnance Survey licensed under the Open Government Licence v.3.0.",    
