@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "HamHillMillsLatest",
+"bbox": [ -2.79440, 50.91797, -2.70900, 50.97396 ],                                                                                
+"features": [
+{ "type": "Feature", "properties": { "name1": null, "notes": "Petherton Bridge Mill" }, "bbox": [ -2.78121, 50.94677, -2.78121, 50.94677 ], "geometry": { "type": "Point", "coordinates": [ -2.78121, 50.94677 ] } },
+{ "type": "Feature", "properties": { "name1": null, "notes": "Joylers Mill" }, "bbox": [ -2.7944, 50.95501, -2.7944, 50.95501 ], "geometry": { "type": "Point", "coordinates": [ -2.7944, 50.95501 ] } },
+{ "type": "Feature", "properties": { "name1": null, "notes": "Madey Flour Mill" }, "bbox": [ -2.75981, 50.96847, -2.75981, 50.96847 ], "geometry": { "type": "Point", "coordinates": [ -2.75981, 50.96847 ] } },
+{ "type": "Feature", "properties": { "name1": null, "notes": "Gawbridge Flour Mill" }, "bbox": [ -2.79422, 50.97396, -2.79422, 50.97396 ], "geometry": { "type": "Point", "coordinates": [ -2.79422, 50.97396 ] } },
+{ "type": "Feature", "properties": { "name1": null, "notes": "Norton Four Mill" }, "bbox": [ -2.753, 50.94098, -2.753, 50.94098 ], "geometry": { "type": "Point", "coordinates": [ -2.753, 50.94098 ] } },
+{ "type": "Feature", "properties": { "name1": null, "notes": "Little Norton Flour Mill" }, "bbox": [ -2.7425, 50.93848, -2.7425, 50.93848 ], "geometry": { "type": "Point", "coordinates": [ -2.7425, 50.93848 ] } },
+{ "type": "Feature", "properties": { "name1": null, "notes": "Wellhams Flour Mill" }, "bbox": [ -2.73489, 50.96439, -2.73489, 50.96439 ], "geometry": { "type": "Point", "coordinates": [ -2.73489, 50.96439 ] } },
+{ "type": "Feature", "properties": { "name1": null, "notes": "Odcombe Flour Mill" }, "bbox": [ -2.709, 50.953, -2.709, 50.953 ], "geometry": { "type": "Point", "coordinates": [ -2.709, 50.953 ] } },
+{ "type": "Feature", "properties": { "name1": null, "notes": "Bow Mill" }, "bbox": [ -2.77226, 50.91797, -2.77226, 50.91797 ], "geometry": { "type": "Point", "coordinates": [ -2.77226, 50.91797 ] } },
+{ "type": "Feature", "properties": { "name1": null, "notes": "Park Mill" }, "bbox": [ -2.73854, 50.93656, -2.73854, 50.93656 ], "geometry": { "type": "Point", "coordinates": [ -2.73854, 50.93656 ] } }
+]
+}
