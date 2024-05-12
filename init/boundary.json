@@ -299,7 +299,8 @@
                  "fill": "blue",
                  "fill-opacity": 1
 	      }
-           ]
+	 }
+        ]
        },	 
        {
        "type": "group",
