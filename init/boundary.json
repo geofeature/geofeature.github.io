@@ -310,10 +310,8 @@
              "zoomOnAddToWorkbench": false,
              "style": {
                  "stroke": "blue",
-                 "stroke-width": 2,
-                 "stroke-opacity": 1,
-                 "fill": "blue",
-                 "fill-opacity": 1
+                 "stroke-width": 1,
+                 "stroke-opacity": 1
 	      }
 	 },
 	 {		 	 
