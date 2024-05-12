@@ -284,8 +284,8 @@
        "type": "group",
        "name": "Ham Hill Waterways",
        "members": [	
-	 {		 	 {
-             "type": "geojson",
+	 {		 	 
+	     "type": "geojson",
              "name": "Ponds",
              "url": "data/HamHillPonds.geojson",
 	     "description": "Ham Hill Ponds",
