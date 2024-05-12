@@ -303,7 +303,7 @@
 	       	 {		 	 
 	     "type": "geojson",
              "name": "Rivers",
-             "url": "data/HamHillEvenMoreRivers.geojson",
+             "url": "data/HamHillRiversStreamsDrains.geojson",
 	     "description": "Ham Hill Rivers",
 	     "attribution": "Contains OS data © Crown copyright and database right 2024",
 	     "dataCustodian": "Ordnance Survey licensed under the Open Government Licence v.3.0.",    
