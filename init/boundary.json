@@ -293,10 +293,13 @@
 	     "dataCustodian": "Ordnance Survey licensed under the Open Government Licence v.3.0.",    
              "zoomOnAddToWorkbench": false,
              "style": {
-                  "fill-opacity": 0.1
-             }
-	 }
-       ]
+                 "stroke": "blue",
+                 "stroke-width": 1,
+                 "stroke-opacity": 1,
+                 "fill": "blue",
+                 "fill-opacity": 1
+	      }
+           ]
        },	 
        {
        "type": "group",
