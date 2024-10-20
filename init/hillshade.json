@@ -33,9 +33,9 @@
           "url": "https://geo.nls.uk/mapdata3/lidar/england/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
           "show": true,
-          "dataCustodian": "National Library of Scotland and Environment Agency",
+          "dataCustodian": "National Library of Scotland",
           "isOpenInWorkbench": true,
-          "name": "Hillshade Enhanced England",
+          "name": "Hillshade 1m Enhanced England",
           "maximumLevel": 18,
 	  "minimumLevel": 1,
           "opacity": 1.0,
@@ -60,14 +60,6 @@
                       {
                           "name": "Licence",
                           "content": "[Open Government Licence v3.0l(OGL)](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)"
-                      },
-		      {
-			  "name": "Curation",
-                          "content": "[National Library of Scotland](https://maps.nls.uk/)"
-                      },
-                      {
-                          "name": "Curation Licence",
-                          "content": "[Creative Commons Attribution 3.0 International(CC BY 3.0)](http://creativecommons.org/licenses/by/3.0/)"
                       }
                 ]
          },
