@@ -17,7 +17,17 @@
 	     "treat403AsError": false,
 	     "treat403AsError": false,
 	     "ignoreUnknownTileErrors": true
-	   }
+	   },
+	   "info": [
+		     {
+			  "name": "Attribution",
+                          "content": "[© Environment Agency copyright and/or database right 2022. All rights reserved](https://environment.data.gov.uk/dataset/13787b9a-26a4-4775-8523-806d13af58fc)"
+                      },
+                      {
+                          "name": "Licence",
+                          "content": "[Open Government Licence v3.0l(OGL)](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)"
+                      }
+                ]
          },
 	 {
           "url": "https://geo.nls.uk/mapdata3/lidar/england/{z}/{x}/{y}.png",
@@ -44,7 +54,7 @@
 	  },
 	  "info": [
 		     {
-			  "name": "Attributinn",
+			  "name": "Attribution",
                           "content": "[© Environment Agency copyright and/or database right 2022. All rights reserved](https://environment.data.gov.uk/dataset/13787b9a-26a4-4775-8523-806d13af58fc)"
                       },
                       {
@@ -52,14 +62,13 @@
                           "content": "[Open Government Licence v3.0l(OGL)](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)"
                       },
 		      {
-			  "name": "Attributinn",
+			  "name": "Curation",
                           "content": "[National Library of Scotland](https://maps.nls.uk/)"
                       },
                       {
-                          "name": "Licence",
+                          "name": "Curation Licence",
                           "content": "[Creative Commons Attribution 3.0 International(CC BY 3.0)](http://creativecommons.org/licenses/by/3.0/)"
-                      },
-
+                      }
                 ]
          },
          {
