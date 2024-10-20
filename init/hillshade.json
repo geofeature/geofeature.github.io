@@ -64,7 +64,7 @@
                 ]
          },
 	 {
-          "url": "https://geo.nls.uk/mapdata3/lidar/{z}/{x}/{y}.png",
+          "url": "https://geo.nls.uk/mapdata3/lidar/wales/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
           "show": true,
           "dataCustodian": "National Library of Scotland",
@@ -90,40 +90,6 @@
 		     {
 			  "name": "Attribution",
                           "content": "[DataMapWales](https://datamap.gov.wales/maps/lidar-viewer/)"
-                      },
-                      {
-                          "name": "Licence",
-                          "content": "[Open Government Licence v3.0l(OGL)](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)"
-                      }
-                ]
-         },
-	 {
-          "url": "https://geo.nls.uk/mapdata3/lidar/england/{z}/{x}/{y}.png",
-          "type": "url-template-imagery",
-          "show": true,
-          "dataCustodian": "National Library of Scotland",
-          "isOpenInWorkbench": true,
-          "name": "Hillshade 1m Enhanced Scotland",
-          "maximumLevel": 18,
-	  "minimumLevel": 1,
-          "opacity": 1.0,
-          "isOpenInWorkbench": false,
-          "rectangle": {
-		"west": -6.46653553,
-		"south": 49.85060192,
-		"east": 1.77817766,
-		"north": 55.87815717
-	  },
-          "clipToRectangle": true,
-          "tileErrorHandlingOptions": {
-			  "treat403AsError": false,
-			  "treat404AsError": false,
-			  "ignoreUnknownTileErrors": true
-	  },
-	  "info": [
-		     {
-			  "name": "Attribution",
-                          "content": "[© Environment Agency copyright and/or database right 2022. All rights reserved](https://environment.data.gov.uk/dataset/13787b9a-26a4-4775-8523-806d13af58fc)"
                       },
                       {
                           "name": "Licence",
