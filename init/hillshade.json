@@ -18,7 +18,37 @@
 	     "treat403AsError": false,
 	     "ignoreUnknownTileErrors": true
 	   }
-         },    
+         },
+	 {
+          "url": "https://geo.nls.uk/mapdata3/lidar/{z}/{x}/{y}.png",
+          "type": "url-template-imagery",
+          "show": true,
+          "dataCustodian": "NLS",
+          "isOpenInWorkbench": true,
+          "name": "Hillshade Enhanced",
+          "maximumLevel": 18,
+	  "minimumLevel": 1,
+          "opacity": 1.0,
+          "isOpenInWorkbench": false,
+          "rectangle": {
+		"west": -6.46653553,
+		"south": 49.85060192,
+		"east": 1.77817766,
+		"north": 55.87815717
+	  },
+          "clipToRectangle": true,
+          "tileErrorHandlingOptions": {
+			  "treat403AsError": false,
+			  "treat404AsError": false,
+			  "ignoreUnknownTileErrors": true
+		  },
+		  "info": [
+            {
+              "name": "Licence",
+              "content": "NLS"
+            }
+          ]
+        },
          {
           "url": "https://geoffrowland.github.io/Hillshade-25m/{z}/{x}/{reverseY}.png",
           "type": "url-template-imagery",
