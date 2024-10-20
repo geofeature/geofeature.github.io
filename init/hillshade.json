@@ -20,12 +20,12 @@
 	   }
          },
 	 {
-          "url": "https://geo.nls.uk/mapdata3/lidar/{z}/{x}/{y}.png",
+          "url": "https://geo.nls.uk/mapdata3/lidar/england/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
           "show": true,
           "dataCustodian": "NLS",
           "isOpenInWorkbench": true,
-          "name": "Hillshade Enhanced",
+          "name": "Hillshade Enhanced England",
           "maximumLevel": 18,
 	  "minimumLevel": 1,
           "opacity": 1.0,
