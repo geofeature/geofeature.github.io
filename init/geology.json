@@ -12,7 +12,7 @@
      {
       "type": "wms",
       "isEsri": true,
-      "name": "BGS 1:50,000 Bedock Geology",
+      "name": "Bedock",
       "attribution": "Contains British Geological Survey materials © UKRI 2023",
       "description": "GBR BGS 1:50000 scale bedrock geology layer",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
@@ -110,7 +110,7 @@
     {
       "type": "wms",
       "isEsri": true,
-      "name": "BGS 1:50,000 Surface Geology",
+      "name": "Surface",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Superficial.deposits",
       "styles": "default",
@@ -144,7 +144,7 @@
     {
       "type": "wms",
       "isEsri": true,
-      "name": "BGS 1:50k Linear Features",
+      "name": "Linear Features",
        "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Linear.features",
       "styles": "default",
@@ -161,7 +161,7 @@
     {
       "type": "wms",
       "isEsri": true,
-      "name": "BGS 1:50k Mass movement",
+      "name": "Mass movement",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Mass.movement",
       "styles": "default",
@@ -178,7 +178,7 @@
     {
       "type": "wms",
       "isEsri": true,
-      "name": "BGS 1:50k Artificial ground",
+      "name": "Artificial ground",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Artificial.ground",
       "styles": "default",
