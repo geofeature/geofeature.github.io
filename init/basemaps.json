@@ -3,7 +3,7 @@
         "items": [
             {
                 "item": {
-                    "id": "basemap-positron",
+                    "id": "basemap-osm",
                     "name": "Open Street Map",
                     "type": "open-street-map",
                     "url": "https://tile.openstreetmap.org",
@@ -13,7 +13,7 @@
                 },
                 "image": "images/basemaps/basemap6.png"	
 			},
-		    {
+			{
 			     "item": "basemap-bing-aerial-with-labels",
 			     "image": "images/basemaps/basemap1.png"
 		    },
@@ -24,20 +24,6 @@
 		    {
 			     "item": "basemap-bing-roads",
 			     "image": "images/basemaps/basemap3.png"
-		    },
-		    {
-			     "item": {
-					 "id": "basemap-black-marble",
-			         "url": "https://geoserver.nationalmap.nicta.com.au/imagery/nasa-black-marble/wms",
-                     "layers": "nasa-black-marble:dnb_land_ocean_ice.2012.54000x27000_geo"
-				  },				 
-			      "image": "images/basemaps/basemap5.png"	    
-		    },
-		    {
-			     "item": {
-					 "id": "basemap-darkmatter"
-				 },
-			     "image": "images/basemaps/basemap7.png"
 		    },
 			{
 			"item": {
