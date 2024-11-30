@@ -12,7 +12,7 @@
      {
       "type": "wms",
       "isEsri": true,
-      "name": "Bedock",
+      "name": "Bedrock",
       "attribution": "Contains British Geological Survey materials © UKRI 2023",
       "description": "GBR BGS 1:50000 scale bedrock geology layer",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
