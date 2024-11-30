@@ -21,7 +21,7 @@
     /* "cesiumTerrainAssetId": 2358649,*/
     "bingMapsKey": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
     "hideTerriaLogo": true,
-    "tabbedCatalog": true,
+    // "tabbedCatalog": true,
     "extraCreditLinks": "",
     "leafletAttributionPrefix": "",   
     // Log ConsoleAnalytics events to console
@@ -72,7 +72,7 @@
     "feedbackUrl": "feedback",
     // Default mobile viewer mode when loading the map for the first time on mobile platforms.
     // Options are: "3DTerrain", "3DSmooth", "2D"
-    "mobileDefaultViewerMode": "2D",
+    "mobileDefaultViewerMode": "2d",
     // Enable experimental features, since its nice to have the bleeding edge.
     // Disable it if things go wrong with the experimental features or your users aren't robust to features which might change or disapear completly.
     "experimentalFeatures": true,
