@@ -285,6 +285,17 @@
          "isOpenInWorkbench": false
        },
        {
+         "type": "geojson",
+         "name": "Somerset LNR",
+         "description":"Local Nature Reserves Somerset.",
+         "url": "data/Somerset_LNR",
+         "style": {
+            "stroke-width": 10,
+            "stroke": "black"
+          },
+         "opacity": 1.0
+       },
+       {
          "type": "esri-featureServer",
          "name": "Local Nature Reserves",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Local_Nature_Reserves_England/FeatureServer/0",
