@@ -290,9 +290,12 @@
          "description":"Local Nature Reserves Somerset.",
          "url": "data/Somerset_LNR.geojson",
          "style": {
-            "stroke-width": 10,
-            "stroke": "black"
-          },
+            "stroke": "black",
+            "stroke-width": 1,
+            "stroke-opacity": 1,
+            "fill": "red",
+            "fill-opacity": 0.1
+         },
          "opacity": 1.0
        },
        {
