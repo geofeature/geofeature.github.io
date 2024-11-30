@@ -288,7 +288,7 @@
          "type": "geojson",
          "name": "Somerset LNR",
          "description":"Local Nature Reserves Somerset.",
-         "url": "data/Somerset_LNR",
+         "url": "data/Somerset_LNR.geojson",
          "style": {
             "stroke-width": 10,
             "stroke": "black"
