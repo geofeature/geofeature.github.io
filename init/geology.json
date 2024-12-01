@@ -421,17 +421,17 @@
      	 ],	 
          "styles":[
              {
-                "id":"FEATURE",
+                "id":"FEATURE_D",
                 "color":{
                     "mapType":"enum",
                     "enumColors":[
-			    {"value":"625k_Fault", "color":"rgba(0,0,0,1)"},
-			    {"value":"625k_Thrust_Fault_Barbs_on_hanging_wall_side", "color":"rgba(0,0,127,1)"}
+			    {"value":"Fault at rockhead", "color":"rgba(0,0,0,1)"},
+			    {"value":"Thrust Fault; barbs on hanging wall side", "color":"rgba(0,0,255,1)"}
 		    ],
               },
               "hidden":false
          }],
-         "activeStyle":"FEATURE",
+         "activeStyle":"FEATURE_D",
 	  "featureInfoTemplate": {
              "name": "{{FEATURE_D}}",
 	     "template": "{{FEATURE_D}}<br />{{id}}"
