@@ -543,6 +543,18 @@
 		    "name": "MIN_EON",
 		    "type": "hidden"
 		    },{
+		    "name": "BGSTYPE",
+		    "type": "hidden"
+		    },{
+		    "name": "LEX_RCS_I",
+		    "type": "hidden"
+		    },{
+		    "name": "LEX_RCS_D",
+		    "type": "hidden"
+		    },{
+		    "name": "MAP_CODE",
+		    "type": "hidden"
+		    },{
 		    "name": "MSLINK",
 		    "type": "hidden"
 		    },{
