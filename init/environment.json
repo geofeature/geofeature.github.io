@@ -85,10 +85,10 @@
                         }			    
 		    ]
                },
-               "hidden":false
+               "hidden": true
           }],
          "activeStyle":"NAME",
-	 "showDisableStyleOption":false,
+	 "showDisableStyleOption": false,
          "featureInfoTemplate": {
 		         "name": "{{NAME}} NATIONAL PARK",
 		         "template": "{{NAME}}<br>Area: {{MEASURE}} km<sup>2</sup><br>Status: {{STATUS}}<br>More: {{HOTLINK}}"
