@@ -452,41 +452,41 @@
 		    "name": "LEX",
 		    "type": "hidden"
 		    },{
-		    "name": "LEX D",
+		    "name": "LEX_D",
 		    "type": "hidden"
 	            },{
-		    "name": "LEX RCS",		    
+		    "name": "LEX_RCS",		    
 		    "type": "hidden"
 	            },{
 		    "name": "RCS",
 		    "type": "hidden"
 	            },{
-		    "name": "RCS X",
+		    "name": "RCS_X",
 		    "type": "hidden"
 	            },{
-		    "name": "RCS D",
+		    "name": "RCS_D",
 		    "title": "Description",
 		    "type": "hidden"
 		    },{
 		    "name": "RANK",
 		    "type": "hidden"
 		    },{
-		    "name": "BED EQ",
+		    "name": "BED_EQ",
 		    "type": "hidden"
 		    },{
-		    "name": "BED EQ D",
+		    "name": "BED_EQ_D",
 		    "type": "hidden"
 		    },{
-		    "name": "MB EQ",
+		    "name": "MB_EQ",
 		    "type": "hidden"
 		    },{
-		    "name": "MB EQ D",
+		    "name": "MB_EQ_D",
 		    "type": "hidden"
 		}
      	 ],	 
          "styles":[
              {
-                "id":"RCS D",
+                "id":"RCS_D",
 		"title": "Description",
                 "color":{
                     "mapType":"enum",
