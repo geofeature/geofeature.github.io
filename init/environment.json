@@ -8,9 +8,9 @@
          "type": "esri-featureServer",
          "name": "National Parks",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/National_Parks_England/FeatureServer/0",
-         "useStyleInformationFromService": true,
+         "useStyleInformationFromService": false,
          "disableOpacityControl": false,
-         "hideLegendInWorkbench": false,
+         "hideLegendInWorkbench": true,
 	 "columns": [
 		    {
 		    "name": "OBJECTID",
@@ -19,6 +19,9 @@
 		    "name": "CODE",
 		    "type": "hidden"
 		    },{
+		    "name": "ESRI",
+		    "type": "hidden"
+	            },{
 		    "name": "NAME",
 		    "type": "hidden"
 	            },{
@@ -88,7 +91,7 @@
                         }			    
 		    ]
                },
-               "hidden": true
+               "hidden": false
           }],
          "activeStyle":"NAME",
 	 "showDisableStyleOption": false,
