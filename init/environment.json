@@ -19,7 +19,7 @@
 		    "name": "CODE",
 		    "type": "hidden"
 		    },{
-		    "name": "NAMEE",
+		    "name": "NAME",
 		    "type": "hidden"
 	            },{
 		    "name": "MEASURE",
