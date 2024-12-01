@@ -444,13 +444,12 @@
 	  "type":"geojson",
 	  "name": "BGS 1:625k Dykes",
 	  "url":"data/625k_v5_dykes_geology_polygons.geojson",
+	  "opacity": 1
 	  "disableOpacityControl": false, 
 	  "style": {
             "stroke-width": 10,
             "stroke": "blue",
-	    "stroke-opacity": 0.8,
             "fill": "blue",
-	    "fill-opacity": 0.5
            },
 	   "featureInfoTemplate": {
            "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
