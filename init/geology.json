@@ -383,9 +383,6 @@
 	  "opacity": 1.0,
 	  "disableOpacityControl": false,
 	  "showDisableStyleOption": false,
-	  "style": {
-            "stroke-width": 10
-           },
   	  "columns":[
 		    {
 		    "name": "CATEGORY",
