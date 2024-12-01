@@ -486,13 +486,13 @@
      	 ],	 
          "styles":[
              {
-                "id":"RCS_D",
+                "id":"RCS D",
 		"title": "Description",
                 "color":{
                     "mapType":"enum",
                     "enumColors":[
-			    {"value":"MAFIC IGNEOUS ROCK", "color":"rgba(255,255,0,1)"},
-			    {"value":"FELSIC IGNEOUS ROCK", "color":"rgba(0,255,0,1)"}
+			    {"value":"MAFIC IGNEOUS-ROCK", "color":"rgba(255,255,0,1)"},
+			    {"value":"FELSIC-ROCK", "color":"rgba(0,255,0,1)"}
 		    ],
               },
 	      "hidden":false
