@@ -19,9 +19,6 @@
 		    "name": "NAME",
 		    "type": "hidden"
 		    },{
-		    "name": "ESRI",
-		    "type": "hidden"
-		    },{
 		    "name": "CODE",
 		    "type": "hidden"
 	            },{
