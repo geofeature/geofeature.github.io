@@ -381,10 +381,10 @@
 	  "url":"data/625k_v5_fault_geology_lines.geojson",
 	  "opacity": 0.8,
 	  "disableOpacityControl": false, 
-	  "style": {
+	  /*"style": {
             "stroke-width": 10,
             "stroke": "black",
-            },
+            },*/
 	  "featureInfoTemplate": {
              "name": "{{FEATURE_D}}",
 	     "template": "{{FEATURE_D}}<br />{{id}}"
