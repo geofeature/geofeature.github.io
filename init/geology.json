@@ -380,9 +380,12 @@
 	  "type":"geojson",
 	  "name": "BGS 1:625k Faults",
 	  "url":"data/625k_v5_fault_geology_lines.geojson",
-	  "opacity": 0.8,
+	  "opacity": 1.0,
 	  "disableOpacityControl": false,
-	  "showDisableStyleOption": false,   
+	  "showDisableStyleOption": false,
+	  "style": {
+            "stroke-width": 10
+           },
   	  "columns":[
 		    {
 		    "name": "CATEGORY",
@@ -392,6 +395,7 @@
 		    "type": "hidden"
 	            },{
 		    "name": "FEATURE_D",
+		    "title": "Description",
 		    "type": "hidden"
 	            },{
 		    "name": "SHEET",
