@@ -419,18 +419,14 @@
 		    "type": "hidden"
 	        }
      	 ],	 
-	  /*"style": {
-            "stroke-width": 10,
-            "stroke": "black",
-            },*/
-	   "styles":[
+         "styles":[
              {
                 "id":"FEATURE",
                 "color":{
                     "mapType":"enum",
                     "enumColors":[
-			    {"value":"625k_Fault", "color":"rgba(91,2,16,1)"},
-			    {"value":"625k_Thrust_Fault_Barbs_on_hanging_wall_side", "color":"rgba(91,2,16,1)"}
+			    {"value":"625k_Fault", "color":"rgba(0,0,0,1)"},
+			    {"value":"625k_Thrust_Fault_Barbs_on_hanging_wall_side", "color":"rgba(0,0,127,1)"}
 		    ],
               },
               "hidden":false
