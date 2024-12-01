@@ -16,10 +16,10 @@
 		    "name": "OBJECTID",
 		    "type": "hidden"  
 		    },{
-		    "name": "NAME",
+		    "name": "CODE",
 		    "type": "hidden"
 		    },{
-		    "name": "CODE",
+		    "name": "NAMEE",
 		    "type": "hidden"
 	            },{
 		    "name": "MEASURE",
@@ -30,6 +30,9 @@
 		    "units": "square km"
 	            },{
 		    "name": "Shape__Length",
+		    "type": "hidden"
+		    },{
+		    "name": "_id_",
 		    "type": "hidden"
 	        }
 	 ],
