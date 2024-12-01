@@ -444,7 +444,7 @@
 	  "type":"geojson",
 	  "name": "BGS 1:625k Dykes",
 	  "url":"data/625k_v5_dykes_geology_polygons.geojson",
-	  "opacity": 1
+	  "opacity": 1,
 	  "disableOpacityControl": false, 
 	  "style": {
             "stroke-width": 10,
