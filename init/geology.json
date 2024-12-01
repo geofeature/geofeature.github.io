@@ -423,6 +423,7 @@
          "styles":[
              {
                 "id":"FEATURE_D",
+		"title": "Description",
                 "color":{
                     "mapType":"enum",
                     "enumColors":[
@@ -430,7 +431,7 @@
 			    {"value":"Thrust Fault; barbs on hanging wall side", "color":"rgba(0,0,255,1)"}
 		    ],
               },
-              "hidden":false
+	      "hidden":false
          }],
          "activeStyle":"FEATURE_D",
 	  "featureInfoTemplate": {
