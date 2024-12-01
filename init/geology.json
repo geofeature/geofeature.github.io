@@ -482,6 +482,72 @@
 		    },{
 		    "name": "MB_EQ_D",
 		    "type": "hidden"
+		    },{
+		    "name": "FM_EQ",
+		    "type": "hidden"
+		    },{
+		    "name": "FM_EQ_D",
+		    "type": "hidden"
+		    },{
+		    "name": "SUBGP_EQ",
+		    "type": "hidden"
+		    },{
+		    "name": "SUBGP_EQ_D",
+		    "type": "hidden"
+		    },{
+		    "name": "GP_EQ",
+		    "type": "hidden"
+		    },{
+		    "name": "GP_EQ_D",
+		    "type": "hidden"
+		    },{
+		    "name": "SUPGP_EQ",
+		    "type": "hidden"
+		    },{
+		    "name": "SUPGP_EQ_D",
+		    "type": "hidden"
+		    },{
+		    "name": "MAX_TIME_D",
+		    "type": "hidden"
+		    },{
+		    "name": "MIN_TIME_D",
+		    "type": "hidden"
+		    },{
+		    "name": "MAX_TIME_Y",
+		    "type": "hidden"
+		    },{
+		    "name": "MIN_TIME_Y",
+		    "type": "hidden"
+		    },{
+		    "name": "MAX_INDEX",
+		    "type": "hidden"
+		    },{
+		    "name": "MIN_INDEX",
+		    "type": "hidden"
+		    },{
+		    "name": "MAX_PERIOD",
+		    "type": "hidden"
+		    },{
+		    "name": "MIN_PERIOD",
+		    "type": "hidden"
+		    },{
+		    "name": "MAX_ERA",
+		    "type": "hidden"
+		    },{
+		    "name": "MIN_ERA",
+		    "type": "hidden"
+		    },{
+		    "name": "MAX_EON",
+		    "type": "hidden"
+		    },{
+		    "name": "MIN_EON",
+		    "type": "hidden"
+		    },{
+		    "name": "MSLINK",
+		    "type": "hidden"
+		    },{
+		    "name": "_ID_",
+		    "type": "hidden"
 		}
      	 ],	 
          "styles":[
@@ -491,10 +557,10 @@
                 "color":{
                     "mapType":"enum",
                     "enumColors":[
-			    {"value":"MAFIC IGNEOUS-ROCK", "color":"rgba(0,0,0,1)"},
-			    {"value":"FELSIC-ROCK", "color":"rgba(0,0,0,1)"},
-			    {"value":"DOLERITE AND THOLEIITIC BASALT", "color":"rgba(0,0,0,1)"},
-			    {"value":"MAFIC GNEISS", "color":"rgba(0,0,0,1)"}
+			    {"value":"MAFIC IGNEOUS-ROCK", "color":"rgba(0,0,127,1)"},
+			    {"value":"FELSIC-ROCK", "color":"rgba(0,127,0,1)"},
+			    {"value":"DOLERITE AND THOLEIITIC BASALT", "color":"rgba(127,0,0,1)"},
+			    {"value":"MAFIC GNEISS", "color":"rgba(127,127,0,1)"}
 		    ],
               },
 	      "hidden": true
