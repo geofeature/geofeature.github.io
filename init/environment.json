@@ -22,6 +22,9 @@
 		    "name": "NAME",
 		    "type": "hidden"
 	            },{
+		    "name": "ESRI",
+		    "type": "hidden"
+	            },{
 		    "name": "MEASURE",
 		    "type": "hidden"
 	            },{
