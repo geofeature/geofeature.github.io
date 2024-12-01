@@ -379,11 +379,11 @@
 	  "type":"geojson",
 	  "name": "BGS 1:625k Faults",
 	  "url":"data/625k_v5_fault_geology_lines.geojson",
+	  "opacity": 0.8,
 	  "disableOpacityControl": false, 
 	  "style": {
             "stroke-width": 10,
             "stroke": "black",
-            "stroke-opacity": 0.8
             },
 	  "featureInfoTemplate": {
              "name": "{{FEATURE_D}}",
