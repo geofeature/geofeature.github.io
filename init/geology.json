@@ -543,6 +543,12 @@
 		    "name": "MIN_EON",
 		    "type": "hidden"
 		    },{
+		    "name": "MAX_EPOCH",
+		    "type": "hidden"
+		    },{
+		    "name": "MIN_EPOCH",
+		    "type": "hidden"
+		    },{
 		    "name": "BGSTYPE",
 		    "type": "hidden"
 		    },{
