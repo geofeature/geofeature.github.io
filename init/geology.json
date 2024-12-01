@@ -381,11 +381,61 @@
 	  "name": "BGS 1:625k Faults",
 	  "url":"data/625k_v5_fault_geology_lines.geojson",
 	  "opacity": 0.8,
-	  "disableOpacityControl": false, 
+	  "disableOpacityControl": false,
+	  "showDisableStyleOption": false,   
+  	  "columns":[
+		    {
+		    "name": "CATEGORY",
+		    "type": "hidden"
+		    },{
+		    "name": "FEATURE",
+		    "type": "hidden"
+	            },{
+		    "name": "FEATURE_D",
+		    "type": "hidden"
+	            },{
+		    "name": "SHEET",
+		    "type": "hidden"
+	            },{
+		    "name": "VERSION",
+		    "type": "hidden"
+	            },{
+		    "name": "RELEASED",
+		    "type": "hidden"
+		    },{
+		    "name": "NOM_SCALE",
+		    "type": "hidden"
+		    },{
+		    "name": "NOM_OS_YR",
+		    "type": "hidden"
+		    },{
+		    "name": "NOM_BGS_YR",
+		    "type": "hidden"
+		    },{
+		    "name": "MSLINK",
+		    "type": "hidden"
+		    },{
+		    "name": "_ID_",
+		    "type": "hidden"
+	        }
+     	 ],	 
 	  /*"style": {
             "stroke-width": 10,
             "stroke": "black",
             },*/
+	   "styles":[
+             {
+                "id":"FEATURE",
+                "color":{
+                    "mapType":"enum",
+                    "enumColors":[
+			    {"value":"625k_Fault", "color":"rgba(91,2,16,1)"},
+			    {"value":"625k_Thrust_Fault_Barbs_on_hanging_wall_side", "color":"rgba(91,2,16,1)"}
+		    ],
+              },
+              "hidden":false
+         }],
+         "activeStyle":"FEATURE",
 	  "featureInfoTemplate": {
              "name": "{{FEATURE_D}}",
 	     "template": "{{FEATURE_D}}<br />{{id}}"
