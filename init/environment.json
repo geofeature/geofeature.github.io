@@ -16,6 +16,9 @@
 		    "name": "OBJECTID",
 		    "type": "hidden"  
 		    },{
+		    "name": "NAME",
+		    "type": "hidden"
+		    },{
 		    "name": "ESRI",
 		    "type": "hidden"
 		    },{
