@@ -1,5 +1,5 @@
 {
-	"baseMapName": "Hillshade",
+    "baseMapName": "Hillshade",
     "homeCamera": {
         "west": -11,
 	"south": 49,
@@ -13,5 +13,6 @@
             "pitch": 45,
             "range": 3000
         }
-    }
+    },
+    shortenShareUrls: false
 }
