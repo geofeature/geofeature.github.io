@@ -428,7 +428,7 @@
                     "mapType":"enum",
                     "enumColors":[
 			    {"value":"Fault at rockhead", "color":"rgba(0,0,0,1)"},
-			    {"value":"Thrust Fault; barbs on hanging wall side", "color":"rgba(0,0,255,1)"}
+			    {"value":"Thrust Fault; barbs on hanging wall side", "color":"rgba(0,255,0,1)"}
 		    ],
               },
 	      "hidden":false
