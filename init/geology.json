@@ -434,7 +434,7 @@
 	      "hidden":false
          }],
          "activeStyle":"FEATURE_D",
-	  "featureInfoTemplate": {
+	 "featureInfoTemplate": {
              "name": "{{FEATURE_D}}",
 	     "template": "{{FEATURE_D}}<br />{{id}}"
           },
@@ -451,6 +451,57 @@
             "stroke": "blue",
             "fill": "blue",
            },
+	    	  "columns":[
+		    {
+		    "name": "LEX",
+		    "type": "hidden"
+		    },{
+		    "name": "LEX D",
+		    "type": "hidden"
+	            },{
+		    "name": "LEX RCS",		    
+		    "type": "hidden"
+	            },{
+		    "name": "RCS",
+		    "type": "hidden"
+	            },{
+		    "name": "RCS X",
+		    "type": "hidden"
+	            },{
+		    "name": "RCS D",
+		    "title": "Description",
+		    "type": "hidden"
+		    },{
+		    "name": "RANK",
+		    "type": "hidden"
+		    },{
+		    "name": "BED EQ",
+		    "type": "hidden"
+		    },{
+		    "name": "BED EQ D",
+		    "type": "hidden"
+		    },{
+		    "name": "MB EQ",
+		    "type": "hidden"
+		    },{
+		    "name": "MB EQ D",
+		    "type": "hidden"
+		}
+     	 ],	 
+         "styles":[
+             {
+                "id":"RCS_D",
+		"title": "Description",
+                "color":{
+                    "mapType":"enum",
+                    "enumColors":[
+			    {"value":"MAFIC IGNEOUS ROCK", "color":"rgba(255,255,0,1)"},
+			    {"value":"FELSIC IGNEOUS ROCK", "color":"rgba(0,255,0,1)"}
+		    ],
+              },
+	      "hidden":false
+         }],
+	   "activeStyle":"RCS_D",
 	   "featureInfoTemplate": {
            "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
            "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br>{{#MAX_AGE}}<br>Age: {{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>Epoch: {{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>Period: {{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>Era: {{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>Eon: {{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>Previous name(s): {{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
