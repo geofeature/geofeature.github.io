@@ -53,6 +53,7 @@
          "isOpenInWorkbench": false,
 	 "zoomOnAddToWorkbench": false,
 	 "opacity": 0.2,
+	 "showDisableStyleOption": false,   
          "disableOpacityControl": false,    
  	 "columns":[
 		    {
