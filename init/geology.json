@@ -597,6 +597,9 @@
 		    "name": "NOM_BGS_YR",
 		    "type": "hidden"
 		    },{
+		    "name": "PREV_NAME",
+		    "type": "hidden"
+		    },{
 		    "name": "MSLINK",
 		    "type": "hidden"
 		    },{
