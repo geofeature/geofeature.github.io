@@ -889,7 +889,7 @@
             }
           ]
         },
-        /*{
+        {
           "name": "OS 1:50 000 and 1:25 000 (Bing)",
           "type": "bing-maps",
 	  "hideSource": true,
@@ -907,7 +907,7 @@
 		"content": "<a target='_blank' href='https://www.microsoft.com/en-us/maps/bing-maps/licensing'>Bing Maps Licensing</a>"
                 }
           ] 
-    },*/
+    },
     {
           "name": "OS Outdoor",
           "type": "url-template-imagery",
