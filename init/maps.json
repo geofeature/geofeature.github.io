@@ -890,13 +890,11 @@
           ]
         },
         {
-          "name": "OS 1:50 000 and 1:25 000",
+          "name": "OS Bing Maps",
           "type": "bing-maps",
-	  "attribution": "Microsoft Bing and OS Crown Copyright",
-	  "dataCustodian": "Microsoft Bing",	    
           "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
           "mapStyle": "OrdnanceSurvey",
-          "description": "Ordnance Survey Explorer and Landranger Maps provided by Bing",
+          "description": "ROrdnance Survey Bing Maps",
 	  "culture": "en-GB",
 	  "maximumLevel": 19,
           "opacity": 0.5,
@@ -905,17 +903,7 @@
 		"name":"Terms of Use",
 		"content": "<a target='_blank' href='https://www.microsoft.com/en-us/maps/bing-maps/licensing'>Bing Maps Licensing</a>"
                 }
-          ] 	    
-    },
-        {
-          "name": "Ordnance Survey Bing Maps",
-          "type": "bing-maps",
-          "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
-          "mapStyle": "OrdnanceSurvey",
-          "description": "ROrdnance Survey Bing Maps",
-	  "culture": "en-GB",
-	  "maximumLevel": 19,
-          "opacity": 0.5
+          ] 	
     },
     {
           "name": "OS Outdoor",
