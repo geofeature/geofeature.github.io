@@ -907,6 +907,16 @@
                 }
           ] 	    
     },
+        {
+          "name": "Ordnance Survey Bing Maps",
+          "type": "bing-maps",
+          "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
+          "mapStyle": "OrdnanceSurvey",
+          "description": "ROrdnance Survey Bing Maps",
+	  "culture": "en-GB",
+	  "maximumLevel": 19,
+          "opacity": 0.5
+    },
     {
           "name": "OS Outdoor",
           "type": "url-template-imagery",
