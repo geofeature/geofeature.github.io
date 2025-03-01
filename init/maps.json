@@ -916,7 +916,7 @@
           "description": "Bing Maps Ordnance Survey, maps for outdoors",
 	  "maximumLevel": 19,
           "opacity": 0.5
-    }
+    },
     {
           "name": "OS Outdoor",
           "type": "url-template-imagery",
