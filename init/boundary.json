@@ -328,9 +328,13 @@
                  "stroke-opacity": 1,
                  "fill": "red",
                  "fill-opacity": 1
-	      }
-	 }
-        ]
+	      },
+              "featureInfoTemplate": {
+                 "name": "Mills",
+                 "template": ": {{tile_name}}"
+              }	
+	    }
+         ]
        },	 
        {
        "type": "group",
