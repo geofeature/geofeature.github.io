@@ -29,6 +29,31 @@
                       }
                 ]
          },
+	             {
+           "type": "wms",
+	   "dataCustodian": "Environment Agency",
+           "name": "Lidar_Composite_Elevation_DTM_1m",
+           "url":  "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wms",
+           "layers": "Lidar_Composite_Elevation_DTM_1m",
+	   "opacity":1.0,
+	   "hideLegendInWorkbench": true,
+	   "tileErrorHandlingOptions": {
+	     "thresholdBeforeDisablingItem": 10,
+	     "treat403AsError": false,
+	     "treat403AsError": false,
+	     "ignoreUnknownTileErrors": true
+	   },
+	   "info": [
+		     {
+			  "name": "Attribution",
+                          "content": "[© Environment Agency copyright and/or database right 2022. All rights reserved](https://environment.data.gov.uk/dataset/13787b9a-26a4-4775-8523-806d13af58fc)"
+                      },
+                      {
+                          "name": "Licence",
+                          "content": "[Open Government Licence v3.0l(OGL)](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)"
+                      }
+                ]
+         },
 	 {
           "url": "https://mapseries-tilesets.s3.amazonaws.com/lidar/england/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
