@@ -909,6 +909,15 @@
           ] 
     },
     {
+          "name": "OS 1:50 000 and 1:25 000 (Bing) 1",
+          "type": "bing-maps",
+          "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
+          "mapStyle": "OrdnanceSurvey",
+          "description": "Bing Maps Ordnance Survey, maps for outdoors",
+	  "maximumLevel": 19,
+          "opacity": 0.5
+    }
+    {
           "name": "OS Outdoor",
           "type": "url-template-imagery",
 	  "hideSource": true,
@@ -987,7 +996,7 @@
           "type": "bing-maps",
           "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
           "mapStyle": "RoadOnDemand",
-          "description": "Bing Maps Ordnance Survey, maps for outdoors",
+          "description": "Roads Bing Maps",
 	  "maximumLevel": 19,
           "opacity": 0.5
     }
