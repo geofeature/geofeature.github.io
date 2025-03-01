@@ -30,7 +30,7 @@
                 ]
          },
 	 {
-          "url": "https://geo.nls.uk/mapdata3/lidar/england/{z}/{x}/{y}.png",
+          "url": "https://mapseries-tilesets.s3.amazonaws.com/lidar/england/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
           "show": true,
           "dataCustodian": "National Library of Scotland",
@@ -64,7 +64,7 @@
                 ]
          },
 	 {
-          "url": "https://geo.nls.uk/mapdata3/lidar/wales/{z}/{x}/{y}.png",
+          "url": "https://mapseries-tilesets.s3.amazonaws.com/lidar/wales/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
           "show": true,
           "dataCustodian": "National Library of Scotland",
