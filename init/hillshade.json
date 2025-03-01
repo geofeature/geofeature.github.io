@@ -29,7 +29,7 @@
                       }
                 ]
          },
-	             {
+	 {
            "type": "wms",
 	   "dataCustodian": "Environment Agency",
            "name": "Lidar_Composite_Elevation_DTM_1m",
