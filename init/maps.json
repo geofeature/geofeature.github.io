@@ -890,13 +890,13 @@
           ]
         },
         {
-          "name": "OS 1:50 000 and 1:25 000 (Bing) 1",
+          "name": "OS 1:50 000 and 1:25 000",
           "type": "bing-maps",
 	  "attribution": "Microsoft Bing and OS Crown Copyright",
 	  "dataCustodian": "Microsoft Bing",	    
           "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
           "mapStyle": "OrdnanceSurvey",
-          "description": "Ordnance Survey, 1:25,000 OS Explorer and 1:50,000 OS Landranger Maps provided by Bing",
+          "description": "Ordnance Survey Explorer and Landranger Maps provided by Bing",
 	  "culture": "en-GB",
 	  "maximumLevel": 19,
           "opacity": 0.5,
