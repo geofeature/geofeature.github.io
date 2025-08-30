@@ -22,7 +22,7 @@
     {
           "name": "Aerial Bing Maps",
           "type": "ion-imagery",
-		  "inAssetId": 2,
+		  "ionAssetId": 2,
           "description": "Satellite and aerial imagery from Microsoft and third-party data providers",
           "opacity": 0.5,
           "attribution": "Bing Maps &copy; 2023 Microsoft",
