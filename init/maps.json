@@ -890,8 +890,8 @@
           ]
         },
     {
-          "name": "OS Outdoor",
-          "type": "url-template-imagery",
+      "name": "OS Outdoor",
+      "type": "url-template-imagery",
 	  "hideSource": true,
 	  "attribution": "OS Crown Copyright",
 	  "dataCustodian": "Ordnance Survey",
@@ -907,14 +907,14 @@
           "allowFeaturePicking": false
     },
     {
-          "name": "OS Road",
-          "type": "url-template-imagery",
+     "name": "OS Road",
+     "type": "url-template-imagery",
 	  "hideSource": true,
 	  "attribution": "OS Crown Copyright",
 	  "dataCustodian": "Ordnance Survey",
 	  "description": "Ordnance Survey Road",
 	  "url": "https://api.os.uk/maps/raster/v1/zxy/Road_3857/{z}/{x}/{y}.png?key=AAPGGZnt29YGEZIJk7DAvy4vwHiUXDC7",
-          "rectangle": {
+      "rectangle": {
 		"west": -10.76418,
 		"south": 49.528423,
 		"east": 1.9134116,
@@ -924,14 +924,14 @@
           "allowFeaturePicking": false
     },
     {
-          "name": "OS Light",
-          "type": "url-template-imagery",
+      "name": "OS Light",
+      "type": "url-template-imagery",
 	  "hideSource": true,
 	  "attribution": "OS Crown Copyright",
 	  "dataCustodian": "Ordnance Survey",
 	  "description": "Ordnance Survey Light",
 	  "url": "https://api.os.uk/maps/raster/v1/zxy/Light_3857/{z}/{x}/{y}.png?key=AAPGGZnt29YGEZIJk7DAvy4vwHiUXDC7",
-          "rectangle": {
+      "rectangle": {
 		"west": -10.76418,
 		"south": 49.528423,
 		"east": 1.9134116,
@@ -940,15 +940,15 @@
 	  "maximumLevel": 20,
           "allowFeaturePicking": false
     },
-	     {
+    {
+		  "name": "Open Street Map",
           "url": "https://tile.openstreetmap.org",
           "subdomains": ["a","b","c"],
           "type": "open-street-map",
           "fileExtension": "png",
           "dataCustodian": "OpenStreetMap Foundation (OSMF)",
-	  "attribution": "© OpenStreetMap",
-	  "description": "OpenStreetMap is a free, open geographic database updated and maintained by a community of volunteers via open collaboration",
-          "name": "Open Street Map",
+	      "attribution": "© OpenStreetMap",
+	      "description": "OpenStreetMap is a free, open geographic database updated and maintained by a community of volunteers via open collaboration",
           "opacity": 0.5,
           "isOpenInWorkbench": false,
           "tileErrorHandlingOptions": {
