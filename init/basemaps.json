@@ -1,5 +1,13 @@
 {
    "baseMaps": {
+	enabledBaseMaps": [
+	    "basemap-hillshade",
+		"basemap-bing-arial",
+		"basemap-osm",
+		"basemap-positron"
+	], 
+   "previewBaseMapId": "basemap-hillshade",
+   "defaultBaseMapId": "basemap-hillshade",
         "items": [
             {
                 "item": {
@@ -13,17 +21,9 @@
                 },
                 "image": "images/basemaps/basemap6.png"	
 			},
-			{
-			     "item": "basemap-bing-aerial-with-labels",
-			     "image": "images/basemaps/basemap1.png"
-		    },
 		    {
 			     "item": "basemap-bing-aerial",
 			     "image": "images/basemaps/basemap2.png"
-		    },
-		    {
-			     "item": "basemap-bing-roads",
-			     "image": "images/basemaps/basemap3.png"
 		    },
 			{
 			"item": {
@@ -371,8 +371,5 @@
 	"image": "images/basemaps/basemap8.png"
       }
    ]
-   },
-   "enabledBaseMaps": ["Hillshade","basemap-positron"], 
-   "previewBaseMapId": "Hillshade",
-   "defaultBaseMapId": "Hillshade"
+   }
 }
