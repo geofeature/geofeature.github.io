@@ -3,11 +3,11 @@
   "initializationUrls": [
       "home",
    /* "basemaps", */
-      "geology",
+   /*   "geology", */
    /* "geoindex", */
       "hillshade",
    /*  "maps", */
-      "imagery",
+   /*   "imagery", */
       "environment",
       "boundary"
   ],
