@@ -2,7 +2,7 @@
    "baseMaps": {
 	"enabledBaseMaps": [
 	    "basemap-hillshade",
-		"basemap-bing-arial",
+		"basemap-bing-aerial",
 		"basemap-osm"
 	], 
    "previewBaseMapId": "basemap-hillshade",
@@ -20,12 +20,12 @@
                 },
                 "image": "images/basemaps/basemap6.png"	
 			},
-		    {
-			     "item": {
-				     "id": "basemap-bing-aerial"
-				 },
-			     "image": "images/basemaps/basemap2.png"
-		    },
+            {
+				   "item" : {
+					   "id" :"basemap-bing-aerial",
+			       },
+			       "image" : "images/basemaps/basemap2.png"	
+			},
 			{
 			"item": {
 					"id": "basemap-hillshade",
