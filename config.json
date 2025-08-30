@@ -6,8 +6,8 @@
       "geology",
    /* "geoindex", */
       "hillshade",
-       "maps"
-   /*   "imagery", */
+       "maps",
+       "imagery"
    /*   "environment", */
     /*  "boundary" */
   ],
