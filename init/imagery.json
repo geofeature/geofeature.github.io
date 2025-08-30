@@ -21,9 +21,8 @@
     },
     {
           "name": "Aerial Bing Maps",
-          "type": "bing-maps",
-          "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
-          "mapStyle": "Aerial",
+          "type": "ion-imagery",
+		  "inAssetId": 2,
           "description": "Satellite and aerial imagery from Microsoft and third-party data providers",
           "opacity": 0.5,
           "attribution": "Bing Maps &copy; 2023 Microsoft",
