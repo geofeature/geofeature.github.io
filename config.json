@@ -7,7 +7,7 @@
    /* "geoindex", */
       "hillshade",
        "maps",
-    /* "imagery", */
+       "imagery",
        "environment",
        "boundary"
   ],
