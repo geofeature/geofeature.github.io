@@ -889,22 +889,6 @@
             }
           ]
         },
-        {
-          "name": "OS Bing Maps",
-          "type": "bing-maps",
-          "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
-          "mapStyle": "OrdnanceSurvey",
-          "description": "ROrdnance Survey Bing Maps",
-	  "culture": "en-GB",
-	  "maximumLevel": 19,
-          "opacity": 0.5,
-	  "info": [
-		{
-		"name":"Terms of Use",
-		"content": "<a target='_blank' href='https://www.microsoft.com/en-us/maps/bing-maps/licensing'>Bing Maps Licensing</a>"
-                }
-          ] 	
-    },
     {
           "name": "OS Outdoor",
           "type": "url-template-imagery",
@@ -978,16 +962,7 @@
                    "content": "[Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/)"
                }
             ]
-        },
-        {
-          "name": "Roads Bing Maps",
-          "type": "bing-maps",
-          "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
-          "mapStyle": "RoadOnDemand",
-          "description": "Roads Bing Maps",
-	  "maximumLevel": 19,
-          "opacity": 0.5
-    }
+        }
    ]
   }
  ]
