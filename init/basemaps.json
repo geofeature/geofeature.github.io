@@ -3,8 +3,7 @@
 	"enabledBaseMaps": [
 	    "basemap-hillshade",
 		"basemap-bing-arial",
-		"basemap-osm",
-		"basemap-positron"
+		"basemap-osm"
 	], 
    "previewBaseMapId": "basemap-hillshade",
    "defaultBaseMapId": "basemap-hillshade",
