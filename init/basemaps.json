@@ -6,7 +6,6 @@
            "basemap-bing-aerial-with-labels",
            "basemap-bing-roads",
            "basemap-natural-earth-II",
-           "basemap-osm",
            "basemap-openstreetmap",
            "basemap-hillshade"
         ],
@@ -24,7 +23,7 @@
 				   "item" : {
 					   "id" :"basemap-bing-aerial-with-labels"
 			       },
-			       "image" : "images/basemaps/basemap2.png"	
+			       "image" : "images/basemaps/basemap1.png"	
 			},
 			{
 				   "item" : {
@@ -32,6 +31,15 @@
 			       },
 			       "image" : "images/basemaps/basemap3.png"	
 			},
+			{
+				   "item" : {
+					   "id" :"basemap-natural-earth-11"
+			       },
+			       "image" : "images/basemaps/basemap4.png"	
+			},
+
+
+			
             {
                 "item": {
                     "id": "basemap-openstreetmap",
