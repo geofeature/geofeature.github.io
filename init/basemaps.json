@@ -1,6 +1,6 @@
 {
    "baseMaps": {
-	enabledBaseMaps": [
+	"enabledBaseMaps": [
 	    "basemap-hillshade",
 		"basemap-bing-arial",
 		"basemap-osm",
