@@ -1,15 +1,15 @@
 {
   /* Names of init files (in wwwroot/init), without the .json extension, to load by default */
   "initializationUrls": [
-      "home",
+      "home"
    /* "basemaps", */
    /*   "geology", */
    /* "geoindex", */
-      "hillshade",
+   /*   "hillshade", */
    /*  "maps", */
    /*   "imagery", */
-      "environment",
-      "boundary"
+   /*   "environment", */
+    /*  "boundary" */
   ],
   "parameters": {
     "googleUrlShortenerKey": null,
