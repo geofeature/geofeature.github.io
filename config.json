@@ -19,7 +19,8 @@
     "useCesiunIonTerrain": false,
     "cesiumTerrainAssetId": 2366871,
     /* "cesiumTerrainAssetId": 2358649,*/
-    "bingMapsKey": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
+    // "bingMapsKey": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
+    "useCesiumIonBingImagery": true,
     "hideTerriaLogo": true,
     // "tabbedCatalog": true,
     "extraCreditLinks": "",
