@@ -22,7 +22,7 @@
 			},
 		    {
 			     "item": {
-				     "id" "basemap-bing-aerial"
+				     "id": "basemap-bing-aerial"
 				 }
 			     "image": "images/basemaps/basemap2.png"
 		    },
