@@ -7,9 +7,9 @@
    /* "geoindex", */
       "hillshade",
        "maps",
-       "imagery"
-   /*   "environment", */
-    /*  "boundary" */
+    /* "imagery", */
+       "environment",
+       "boundary"
   ],
   "parameters": {
     "googleUrlShortenerKey": null,
