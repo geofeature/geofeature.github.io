@@ -14,5 +14,5 @@
             "range": 3000
         }
     },
-    shortenShareUrls: false
+    "shortenShareUrls": false
 }
