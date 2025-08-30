@@ -1,30 +1,43 @@
 {
    "baseMaps": {
-	"enabledBaseMaps": [
-	    "basemap-hillshade",
-		"basemap-bing-aerial",
-		"basemap-osm"
-	], 
-   "previewBaseMapId": "basemap-hillshade",
-   "defaultBaseMapId": "basemap-hillshade",
+
+	    "enabledBaseMaps": [
+           "basemap-bing-aerial",
+           "basemap-bing-aerial-with-labels",
+           "basemap-bing-roads",
+           "basemap-natural-earth-II",
+           "basemap-osm",
+           "basemap-openstreetmap",
+           "basemap-hillshade"
+        ],
+        "previewBaseMapId": "basemap-hillshade",
+        "defaultBaseMapId": "basemap-hillshade",
         "items": [
-            {
-                "item": {
-                    "id": "basemap-osm",
-                    "name": "Open Street Map",
-                    "type": "open-street-map",
-                    "url": "https://tile.openstreetmap.org",
-                    "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
-                    "subdomains": ["a", "b", "c"],
-                    "opacity": 1.0
-                },
-                "image": "images/basemaps/basemap6.png"	
-			},
+        
             {
 				   "item" : {
-					   "id" :"basemap-bing-aerial",
+					   "id" :"basemap-bing-aerial"
 			       },
 			       "image" : "images/basemaps/basemap2.png"	
+			},            
+			{
+				   "item" : {
+					   "id" :"basemap-bing-aerial-with-labels"
+			       },
+			       "image" : "images/basemaps/basemap2.png"	
+			},
+			{
+				   "item" : {
+					   "id" :"basemap-bing-roads"
+			       },
+			       "image" : "images/basemaps/basemap3.png"	
+			},
+            {
+                "item": {
+                    "id": "basemap-openstreetmap",
+                    "name": "Open Street Map"
+                 },
+                "image": "images/basemaps/basemap6.png"	
 			},
 			{
 			"item": {
