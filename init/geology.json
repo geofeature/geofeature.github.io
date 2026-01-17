@@ -880,17 +880,17 @@
            }
          },
          {
-           "type": "wms-group",
+           "type": "esri-mapServer",
            "name": "Minerals",
            "url": "https://map.bgs.ac.uk/arcgis/rest/services/GeoIndex_Onshore/minerals_wms/MapServer",
            "description": "Geological Materials. All rights reserved.",
-           "dataCustodian": "Contains British Geological Survey materials © UKRI 2022",
-           "sortMembersBy": "name",
-           "itemProperties": {
-              "allowFeaturePicking": true,
+           "dataCustodian": "Contains British Geological Survey materials © UKRI 2022"
+           //"sortMembersBy": "name",
+           //"itemProperties": {
+              //"allowFeaturePicking": true
               //"getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
-              "styles": "default"
-           }
+              //"styles": "default"
+           //}
          },
          {
            "type": "wms-group",
