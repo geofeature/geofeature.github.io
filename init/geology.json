@@ -885,13 +885,13 @@
 		   //"layers": "5",
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WmsServer",
            "description": "Geological Materials. All rights reserved.",
-           "dataCustodian": "Contains British Geological Survey materials © UKRI 2022"
-           //"sortMembersBy": "name",
-           //"itemProperties": {
-              //"allowFeaturePicking": true
-              //"getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
-              //"styles": "default"
-           //}
+           "dataCustodian": "Contains British Geological Survey materials © UKRI 2022",
+           "sortMembersBy": "name",
+           "itemProperties": {
+              "allowFeaturePicking": true,
+              "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
+              "styles": "default"
+           }
          },
          {
            "type": "wms-group",
