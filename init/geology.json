@@ -888,7 +888,7 @@
            "sortMembersBy": "name",
            "itemProperties": {
               "allowFeaturePicking": true,
-              "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
+              //"getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
               "styles": "default"
            }
          },
