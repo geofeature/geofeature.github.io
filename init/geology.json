@@ -205,7 +205,19 @@
         "type": "esri-featureServer",
         "name": "Bedrock ESRI",
 		"opacity": 0.5,
-		"showDisableStyleOption": false,  
+		"showDisableStyleOption": false,
+			    "columns":[
+		    {
+		        "name": "ESRI",
+		        "title": "Geology"
+		    },{
+		        "name": "ERA",
+		        "type": "hidden"
+	        },{
+		        "name": "MAX_EPOCH",
+		        "type": "hidden"
+	        }
+     	 ],
         "styles":[{"id":"ESRI","color":{
 	        "mapType":"enum",
             "enumColors":[
