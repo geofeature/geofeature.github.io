@@ -206,7 +206,7 @@
         "name": "Bedrock ESRI",
 	    "styles":[
 			{"id":"ESRI",
-			 "color":{"mapType":"enum","enumColors":[
+			 "color":{"mapType":"enum","colorColumn":"enum","enumColors":[
 {"value":"Neogene","color":"rgb(255,230,25)"},
 {"value":"Palaeogene","color":"rgb(253,192,122)"},
 {"value":"Palaeogene To Neogene","color":"rgb(253,154,82)"},
@@ -234,10 +234,10 @@
 {"value":"Siderian To Stratherian","color":"rgb(247,67,112)"},
 {"value":"Precambrian","color":"rgb(247,67,112)"},
 {"value":"Not Applicable","color":"rgb(225,225,225)"
-}],
-"colorPalette":"HighContrast"},
+}]},
 "hidden":false}],
-"activeStyle":"ESRI"
+"activeStyle":"ESRI",
+"defaultStyle":"ESRI"		
 	},	 
     {
       "type": "wms",
