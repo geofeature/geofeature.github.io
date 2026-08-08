@@ -200,6 +200,12 @@
      "name": "BGS 1:625 000 Geology",
      "description": "Generalised digital geological map data based on the BGS published poster maps of the UK (north and south). Bedrock-related themes were created by generalisation of 1:50 000 data to make the 2007 fifth edition bedrock geology map. Superficial gelogy-related themes were digitised from the 1977 first edition Quaternary map (north and south).",
      "members": [
+	{
+        "url": "https://services3.arcgis.com/7bJVHfju2RXdGZa4/ArcGIS/rest/services/BGS_625k_geology/FeatureServer/1",
+        "type": "esri-featureServer",
+        "name": "Bedrock ESRI",
+        "id": "some id"
+    },	 
     {
       "type": "wms",
       "name": "BGS 1:625k Bedrock Lithostratigraphy",
