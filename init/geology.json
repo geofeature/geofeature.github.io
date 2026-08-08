@@ -214,7 +214,25 @@
 		        "name": "ERA",
 		        "type": "hidden"
 	        },{
-		        "name": "MAX_EPOCH",
+		        "name": "BASE TERM",
+		        "type": "hidden"
+	        },{
+		        "name": "HEX COLOR",
+		        "type": "hidden"
+	        },{
+		        "name": "PROCESS",
+		        "type": "hidden"
+	        },{
+		        "name": "ENVIRONMENT",
+		        "type": "hidden"
+	        },{
+		        "name": "Shape__Area",
+		        "type": "hidden"
+	        },{
+		        "name": "Shape__Length",
+		        "type": "hidden"
+	        },{
+		        "name": "TYPE",
 		        "type": "hidden"
 	        }
      	 ],
