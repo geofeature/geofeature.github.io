@@ -204,7 +204,6 @@
       "type": "wms",
       "name": "BGS 1:625k Bedrock Lithostratigraphy",
       "url": "https://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
-      //"url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BLS",
       "styles": "default",
       "minScaleDenominator": 100000,
@@ -240,7 +239,7 @@
     {
       "type": "wms",
       "name": "BGS 1:625k Surface Lithostratigraphy",
-      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "url": "https://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_SLS",
       "styles": "default",
       "minScaleDenominator": 100000,
@@ -275,7 +274,7 @@
    {
       "type": "wms",
       "name": "BGS 1:625k Bedrock Lithology",
-      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "url": "https://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BLT",
       "styles": "default",
       "minScaleDenominator": 100000,	  
@@ -310,7 +309,7 @@
     {
       "type": "wms",
       "name": "BGS 1:625k Surface Lithology",
-      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "url": "https://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_SLT",
       "styles": "default",
       "minScaleDenominator": 100000,
@@ -345,7 +344,7 @@
     {
       "type": "wms",
       "name": "BGS 1:625k Bedrock Age",
-      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "url": "https://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BA",
       "styles": "default",
       "minScaleDenominator": 100000,
