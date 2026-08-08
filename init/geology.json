@@ -204,13 +204,14 @@
         "url": "https://services3.arcgis.com/7bJVHfju2RXdGZa4/ArcGIS/rest/services/BGS_625k_geology/FeatureServer/1",
         "type": "esri-featureServer",
         "name": "Bedrock ESRI",
-"styles":[{
-  "id":"ESRI",
-  "color":{"colorColumn":"PERIOD"},
-  "hidden":false
-}],
-"defaultStyle":"ESRI",
-"activeStyle":"ESRI"	
+        "styles":[{"id":"ESRI","color":{
+            "mapType":"enum",
+            "colorColumn":"PERIOD",
+            "enumColors":[],
+            "colorPalette":"HighContrast"
+        },
+        "hidden":false}],
+        "activeStyle":"ESRI"
 	},	 
     {
       "type": "wms",
