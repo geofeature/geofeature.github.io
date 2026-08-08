@@ -204,9 +204,9 @@
         "url": "https://services3.arcgis.com/7bJVHfju2RXdGZa4/ArcGIS/rest/services/BGS_625k_geology/FeatureServer/1",
         "type": "esri-featureServer",
         "name": "Bedrock ESRI",
-		"id": "some id",
-		"useStyleInformationFromService": true,
-        "styles":[{"id":"ESRI","color":{"mapType":"enum","enumColors":[
+	    "styles":[
+			{"id":"ESRI",
+			 "color":{"mapType":"enum","enumColors":[
 {"value":"Neogene","color":"rgb(255,230,25)"},
 {"value":"Palaeogene","color":"rgb(253,192,122)"},
 {"value":"Palaeogene To Neogene","color":"rgb(253,154,82)"},
@@ -233,8 +233,11 @@
 {"value":"Proterozoic","color":"rgb(247,53,99)"},
 {"value":"Siderian To Stratherian","color":"rgb(247,67,112)"},
 {"value":"Precambrian","color":"rgb(247,67,112)"},
-{"value":"Not Applicable","color":"rgb(225,225,225)"}],
-"colorPalette":"HighContrast"},"hidden":false}],"activeStyle":"ESRI"
+{"value":"Not Applicable","color":"rgb(225,225,225)"
+}],
+"colorPalette":"HighContrast"},
+"hidden":false}],
+"activeStyle":"ESRI"
 	},	 
     {
       "type": "wms",
