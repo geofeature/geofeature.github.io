@@ -205,8 +205,10 @@
         "type": "esri-featureServer",
         "name": "Bedrock ESRI",
 		"opacity": 0.5,
+		"minScaleDenominator": 100000,
+        "hideLayerAfterMinScaleDenominator": true,
 		"showDisableStyleOption": false,
-			    "columns":[
+		"columns":[
 		    {
 		        "name": "ESRI",
 		        "title": "Geology"
