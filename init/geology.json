@@ -214,10 +214,10 @@
 		        "name": "ERA",
 		        "type": "hidden"
 	        },{
-		        "name": "BASE TERM",
+		        "name": "BASE_TERM",
 		        "type": "hidden"
 	        },{
-		        "name": "HEX COLOR",
+		        "name": "HEX_COLOR",
 		        "type": "hidden"
 	        },{
 		        "name": "PROCESS",
