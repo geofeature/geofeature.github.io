@@ -236,7 +236,7 @@
           {"value":"Not Applicable","color":"rgb(225,225,225)"}
         ],"colorPalette":"HighContrast"},
         "hidden":false}],
-		"defaultStyle":[{"id":"ESRI"}],
+		"defaultStyle":{"id":"ESRI"},
         "activeStyle":"ESRI"
 	},	 
     {
