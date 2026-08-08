@@ -204,7 +204,8 @@
         "url": "https://services3.arcgis.com/7bJVHfju2RXdGZa4/ArcGIS/rest/services/BGS_625k_geology/FeatureServer/1",
         "type": "esri-featureServer",
         "name": "Bedrock ESRI",
-		"id": "some id"
+		"id": "some id",
+		"useStyleInformationFromService": true
     },	 
     {
       "type": "wms",
