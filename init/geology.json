@@ -206,7 +206,7 @@
         "name": "Bedrock ESRI",
 		"opacity": 0.5,
 		"minScaleDenominator": 100000,
-        "hideLayerAfterMinScaleDenominator": true,
+        //"hideLayerAfterMinScaleDenominator": true,
 		"showDisableStyleOption": false,
 		"columns":[
 		    {
