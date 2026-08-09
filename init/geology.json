@@ -283,7 +283,13 @@
             ],"colorPalette":"HighContrast"},
         "hidden":false}],
         "activeStyle":"ESRI"
-	},	 
+	},
+	{
+      "type": "geojson",
+      "url": "data/BGS_Geology_Bedrock_625k_6.geojson",
+      "name": "BGS 1.625k Bedrock Age",
+      "id": "another unique ID"
+    },	 
     {
       "type": "wms",
       "name": "BGS 1:625k Bedrock Lithostratigraphy",
