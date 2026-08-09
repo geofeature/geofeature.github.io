@@ -363,8 +363,7 @@
               {"value":"NOT APPLICABLE","color":"rgba(171,188,206,1)"},
               {"value":"No Data Entered","color":"rgba(168,195,223,1)"}
         ],
-        "outline":{"enabled":true,
-		        "null":{"width":0}
+        "outline":{"enabled":false,"null":{"width":0}
 		}, 
         "colorPalette":"HighContrast"},"hidden":false}],
         "activeStyle":"AGE_ONEGL"
