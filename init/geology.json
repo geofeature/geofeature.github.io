@@ -225,6 +225,9 @@
 		    },{
 		        "name": "BASE_TERM",
 		        "type": "hidden"
+			},{
+		        "name": "ERA",
+		        "type": "hidden"
 	        },{
 		        "name": "HEX_COLOR",
 		        "type": "hidden"
@@ -276,8 +279,12 @@
                 {"value":"Precambrian","color":"rgba(247,67,111)"},
                 {"value":"Not Applicable","color":"rgb(225,225,225)"}
             ],"colorPalette":"HighContrast"},
-        "hidden":false}],
-        "activeStyle":"ESRI"
+		    "outline":{"enabled":true,
+            "mapType":"constant",
+            "column":"AGE_ONEGL",
+            "null":{"width":0}},
+            "hidden":false}],
+            "activeStyle":"ESRI"
 	},
 	{
       "type": "geojson",
