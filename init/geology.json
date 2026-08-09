@@ -291,13 +291,10 @@
       "id": "another unique ID",
 	  "opacity": 0.5,
 	  "showDisableStyleOption": false,
-	        "styles":[{"id":"AGE_ONEGL","color":{
+	  "styles":[{"id":"AGE_ONEGL","color":{
 	        "mapType":"enum",
             "enumColors":[
-        "styles":[{"id":"ESRI","color":{
-	        "mapType":"enum",
-            "enumColors":[
- {"value":"NEOGENE","color":"rgba(255,230,25,1)"},
+{"value":"NEOGENE","color":"rgba(255,230,25,1)"},
 {"value":"OLIGOCENE","color":"rgba(253,192,122,1)"},
 {"value":"EOCENE","color":"rgba(253,180,108,1)"},
 {"value":"THANETIAN","color":"rgba(253,191,111,1)"},
@@ -362,9 +359,6 @@
 
 {"value":"NOT APPLICABLE","color":"rgba(171,188,206,1)"},
 {"value":"No Data Entered","color":"rgba(168,195,223,1)"}
-            ],"colorPalette":"HighContrast"},
-        "hidden":false}],
-        "activeStyle":"AGE_ONEGL"
         ],"colorPalette":"HighContrast"},
         "hidden":false}],
         "activeStyle":"AGE_ONEGL"
