@@ -217,17 +217,12 @@
         "type": "esri-featureServer",
         "name": "BGS 1:625k Bedrock - Simplified",
 		"opacity": 0.5,
-		//"minScaleDenominator": 100000,
-        //"hideLayerAfterMinScaleDenominator": true,
 		"showDisableStyleOption": false,
 		"columns":[
 		    {
 		        "name": "ESRI",
 		        "title": "Geology"
 		    },{
-		        "name":` "ERA",
-		        "type": "hidden"
-	        },{
 		        "name": "BASE_TERM",
 		        "type": "hidden"
 	        },{
