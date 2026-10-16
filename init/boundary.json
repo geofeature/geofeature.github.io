@@ -208,7 +208,7 @@
                  "stroke": "black",
                  "stroke-width": 2,
                  "fill": "red",
-                 "fill-opacity": 0.2
+                 "fill-opacity": 0.0
 	     },
              "featureInfoTemplate": {
                  "name": "Cornwall",
@@ -227,7 +227,7 @@
                  "stroke": "black",
                  "stroke-width": 2,
                  "fill": "green",
-                 "fill-opacity": 0.2
+                 "fill-opacity": 0.0
              },
 	     "featureInfoTemplate": {
                  "name": "Devon",
@@ -246,7 +246,7 @@
                  "stroke": "black",
                  "stroke-width": 2,
                  "fill": "yellow",
-                 "fill-opacity": 0.2
+                 "fill-opacity": 0.0
              },
              "featureInfoTemplate": {
                  "name": "Dorset",
@@ -271,7 +271,7 @@
                  "stroke": "black",
                  "stroke-width": 2,
                  "fill": "blue",
-                 "fill-opacity": 0.2
+                 "fill-opacity": 0.0
              },
              "featureInfoTemplate": {
                  "name": "Somerset",
